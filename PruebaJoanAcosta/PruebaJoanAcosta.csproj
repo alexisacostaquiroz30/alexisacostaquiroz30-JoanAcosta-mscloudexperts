@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20231129153625_InitialCreate.cs" />
+    <Compile Remove="Migrations\20231129153625_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20231129181646_V1.cs" />
+    <Compile Remove="Migrations\20231129181646_V1.Designer.cs" />
+    <Compile Remove="Migrations\20231129182434_V1.cs" />
+    <Compile Remove="Migrations\20231129182434_V1.Designer.cs" />
+    <Compile Remove="Migrations\20231129183052_V1.cs" />
+    <Compile Remove="Migrations\20231129183052_V1.Designer.cs" />
+    <Compile Remove="Migrations\20231129185214_V1.cs" />
+    <Compile Remove="Migrations\20231129185214_V1.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.32" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.32" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.32" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.32" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.32">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Serilog.AspNetCore" Version="3.4.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.0.0-rc2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Logs\" />
+  </ItemGroup>
+
+	<PropertyGroup>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<NoWarn>$(NoWarn);1591</NoWarn>
+	</PropertyGroup>
+	
+
+</Project>
