@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using PruebaJoanAcosta.Data;
 using PruebaJoanAcosta.Models;
+using PruebaJoanAcosta.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,13 +18,11 @@ namespace PruebaJoanAcosta.Controllers
 	public class DeportistaPesoController : ControllerBase
 	{
 
-		private readonly Conexion _context;
-		private readonly ILogger _logger;
+		private readonly IDeportistaPesoService _deportistaPesoService;
 
-		public DeportistaPesoController(Conexion conexion, ILogger<DeportistaPesoController> logger)
+		public DeportistaPesoController(IDeportistaPesoService deportistaPesoService)
 		{
-			_context = conexion;
-			_logger = logger;
+			_deportistaPesoService = deportistaPesoService;
 		}
 
 
@@ -35,7 +34,7 @@ namespace PruebaJoanAcosta.Controllers
 		[HttpGet]
 		public async Task<ActionResult<IEnumerable<DeportistaPeso>>> GetDeportistaPeso()
 		{
-			return await _context.DeportistaPeso.ToListAsync();
+			return await _deportistaPesoService.GetDeportistaPeso();
 		}
 
 		// GET api/<DeportistaPesoController>/5
@@ -46,7 +45,7 @@ namespace PruebaJoanAcosta.Controllers
 		[HttpGet("{id}")]
 		public async Task<ActionResult<DeportistaPeso>> GetDeportistaPeso(int id)
 		{
-			var DeportistaPeso = await _context.DeportistaPeso.FindAsync(id);
+			var DeportistaPeso = await _deportistaPesoService.GetDeportistaPeso(id);
 
 			if (DeportistaPeso == null)
 			{
@@ -64,17 +63,8 @@ namespace PruebaJoanAcosta.Controllers
 		[HttpGet("Intentos")]
 		public async Task<ActionResult<IEnumerable<object>>> Intentos()
 		{
-			_logger.LogInformation("Consultando cantidad de intentos de los deportistas");
-			var deportistaPesoIntentos = await _context.DeportistaPeso
-				.Include(dp => dp.Deportista)
-				.GroupBy(dp => new { dp.IdDeportistaFk, dp.Deportista.NombreDeportista })
-				.Select(group => new
-				{
-					IdDeportista = group.Key.IdDeportistaFk,
-					NombreDeportista = group.Key.NombreDeportista,
-					Intentos = group.Count(),
-				})
-				.ToListAsync();
+			
+			var deportistaPesoIntentos = await _deportistaPesoService.Intentos();
 
 			return deportistaPesoIntentos;
 		}
@@ -86,27 +76,7 @@ namespace PruebaJoanAcosta.Controllers
 		[HttpGet("GetMejoresPesos")]
 		public async Task<ActionResult<IEnumerable<object>>> GetMejoresPesos()
 		{
-			_logger.LogInformation("consultando los mejores pesos");
-			var mejoresPesos = await _context.DeportistaPeso
-				.Include(dp => dp.Deportista)
-				.GroupBy(dp => new { dp.IdDeportistaFk, dp.Deportista.NombreDeportista })
-				.Select(group => new
-				{
-					IdDeportista = group.Key.IdDeportistaFk,
-					NombreDeportista = group.Key.NombreDeportista,
-					MejorArranque = group.Max(dp => dp.Arranque),
-					MejorEnvion = group.Max(dp => dp.Envion),
-				})
-				.Select(dp => new
-				{
-					dp.IdDeportista,
-					dp.NombreDeportista,
-					dp.MejorArranque,
-					dp.MejorEnvion,
-					Total = dp.MejorArranque + dp.MejorEnvion
-				})
-				.OrderByDescending(dp => dp.Total)
-				.ToListAsync();
+			var mejoresPesos = await _deportistaPesoService.GetMejoresPesos();
 
 			return mejoresPesos;
 		}
@@ -119,18 +89,16 @@ namespace PruebaJoanAcosta.Controllers
 		[HttpPost]
 		public async Task<ActionResult<DeportistaPeso>> PostDeportistaPeso(DeportistaPeso deportistaPeso)
 		{
-			_logger.LogInformation("creando un nuevo intento del deportista");
-			var count = _context.DeportistaPeso.Count(dp => dp.IdDeportistaFk == deportistaPeso.IdDeportistaFk);
-			_logger.LogInformation("validando la cantidad de intentos del deportista");
-			if (count >= 3)
+			var depor = await _deportistaPesoService.PostDeportistaPeso(deportistaPeso);
+
+			if (depor.Code == 500)
 			{
-				return BadRequest(new { code = 500, msg = "Un deportista no puede tener más de tres intentos." });
+				return Unauthorized(new { depor });
 			}
-			_logger.LogInformation("creando el nuevo intento del deportista");
-			_context.DeportistaPeso.Add(deportistaPeso);
-			await _context.SaveChangesAsync();
 
 			return CreatedAtAction(nameof(GetDeportistaPeso), new { id = deportistaPeso.IdDeporPeso }, deportistaPeso);
+
+
 		}
 
 	}

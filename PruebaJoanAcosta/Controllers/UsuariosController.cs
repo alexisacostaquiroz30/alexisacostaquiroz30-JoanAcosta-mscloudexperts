@@ -1,12 +1,8 @@
 ﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using PruebaJoanAcosta.Data;
-using PruebaJoanAcosta.Models;
-using System;
+using PruebaJoanAcosta.Services;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -19,12 +15,12 @@ namespace PruebaJoanAcosta.Controllers
 	public class UsuariosController : ControllerBase
 	{
 
-		private readonly Conexion _context;
+		private readonly IUsuarioService _usuarioService;
 
 
-		public UsuariosController(Conexion conexion)
+		public UsuariosController(IUsuarioService usuarioService)
 		{
-			_context = conexion;
+			_usuarioService = usuarioService;
 		}
 
 
@@ -36,7 +32,7 @@ namespace PruebaJoanAcosta.Controllers
 		[HttpGet]
 		public async Task<ActionResult<IEnumerable<Usuario>>> GetUsuarios()
 		{
-			return await _context.Usuarios.ToListAsync();
+			return await _usuarioService.GetUsuarios();
 		}
 
 		// GET api/<UsuariosController>/5
@@ -47,7 +43,7 @@ namespace PruebaJoanAcosta.Controllers
 		[HttpGet("{id}")]
 		public async Task<ActionResult<Usuario>> GetUsuario(int id)
 		{
-			var Usuario = await _context.Usuarios.FindAsync(id);
+			var Usuario = await _usuarioService.GetUsuario(id);
 
 			if (Usuario == null)
 			{
@@ -65,8 +61,13 @@ namespace PruebaJoanAcosta.Controllers
 		[HttpPost]
 		public async Task<ActionResult<Usuario>> PostUsuario(Usuario Usuario)
 		{
-			_context.Usuarios.Add(Usuario);
-			await _context.SaveChangesAsync();
+			
+			var user = await _usuarioService.PostUsuario(Usuario);
+
+			if (user.Code == 500)
+			{
+				return Unauthorized(new {user});
+			}
 
 			return CreatedAtAction(nameof(GetUsuario), new { id = Usuario.IdUsuario }, Usuario);
 		}

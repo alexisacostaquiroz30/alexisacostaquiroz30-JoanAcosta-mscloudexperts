@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using PruebaJoanAcosta.Data;
 using PruebaJoanAcosta.Models;
+using PruebaJoanAcosta.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,14 +17,11 @@ namespace PruebaJoanAcosta.Controllers
 	[ApiController]
 	public class DeportistasController : ControllerBase
 	{
+		private readonly IDeportistaService _deportistaService;
 
-		private readonly Conexion _context;
-		private readonly ILogger _logger;
-
-		public DeportistasController(Conexion conexion, ILogger<DeportistasController> logger)
+		public DeportistasController(IDeportistaService deportistaService)
 		{
-			_context = conexion;
-			_logger = logger;
+			_deportistaService = deportistaService;
 		}
 
 
@@ -35,8 +33,7 @@ namespace PruebaJoanAcosta.Controllers
 		[HttpGet]
 		public async Task<ActionResult<IEnumerable<Deportista>>> GetDeportistas()
 		{
-			_logger.LogInformation("consultando los deportistas");
-			return await _context.Deportistas.ToListAsync();
+			return await _deportistaService.GetDeportistas();
 		}
 
 		// GET api/<DeportistasController>/5
@@ -47,7 +44,7 @@ namespace PruebaJoanAcosta.Controllers
 		[HttpGet("{id}")]
 		public async Task<ActionResult<Deportista>> GetDeportista(int id)
 		{
-			var deportista = await _context.Deportistas.FindAsync(id);
+			var deportista =  await _deportistaService.GetDeportista(id);
 
 			if (deportista == null)
 			{
@@ -65,9 +62,13 @@ namespace PruebaJoanAcosta.Controllers
 		[HttpPost]
 		public async Task<ActionResult<Deportista>> PostDeportista(Deportista deportista)
 		{
-			_logger.LogInformation("creando un nuevo deportista");
-			_context.Deportistas.Add(deportista);
-			await _context.SaveChangesAsync();
+			var depor = await _deportistaService.PostDeportista(deportista);
+
+			if (depor.Code == 500)
+			{
+				return Unauthorized(new { depor });
+			}
+
 
 			return CreatedAtAction(nameof(GetDeportista), new { id = deportista.IdDeportista }, deportista);
 		}

@@ -10,6 +10,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using PruebaJoanAcosta.Data;
+using PruebaJoanAcosta.Services;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -62,6 +63,10 @@ namespace PruebaJoanAcosta
 					};
 				});
 
+			services.AddScoped<IUsuarioService, UsuarioService>();
+			services.AddScoped<IAuthService, AuthService>();
+			services.AddScoped<IDeportistaService, DeportistaService>();
+			services.AddScoped<IDeportistaPesoService, DeportistaPesoService>();
 
 		}
 

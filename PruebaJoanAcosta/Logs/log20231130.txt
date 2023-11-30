@@ -58,3 +58,1104 @@ FROM [DeportistaPeso] AS [d]
 2023-11-30 09:40:40.988 -05:00 [INF] Executed action PruebaJoanAcosta.Controllers.DeportistaPesoController.GetDeportistaPeso (PruebaJoanAcosta) in 3523.7124ms
 2023-11-30 09:40:40.989 -05:00 [INF] Executed endpoint 'PruebaJoanAcosta.Controllers.DeportistaPesoController.GetDeportistaPeso (PruebaJoanAcosta)'
 2023-11-30 09:40:40.993 -05:00 [INF] Request finished in 3549.0812ms 200 application/json; charset=utf-8
+2023-11-30 11:16:23.948 -05:00 [INF] Starting up
+2023-11-30 11:16:32.099 -05:00 [INF] User profile is available. Using 'C:\Users\LENOVO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-30 11:16:32.974 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-30 11:16:32.975 -05:00 [INF] Hosting environment: Development
+2023-11-30 11:16:32.975 -05:00 [INF] Content root path: D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta
+2023-11-30 11:16:33.015 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/  
+2023-11-30 11:16:33.299 -05:00 [INF] Executing endpoint '/Index'
+2023-11-30 11:16:33.359 -05:00 [INF] Route matched with {page = "/Index", action = "", controller = ""}. Executing page /Index
+2023-11-30 11:16:33.367 -05:00 [INF] Executing handler method PruebaJoanAcosta.Pages.IndexModel.OnGet - ModelState is "Valid"
+2023-11-30 11:16:33.369 -05:00 [INF] Executed handler method OnGet, returned result .
+2023-11-30 11:16:33.372 -05:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-11-30 11:16:33.373 -05:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-11-30 11:16:33.472 -05:00 [INF] Executed page /Index in 109.417ms
+2023-11-30 11:16:33.472 -05:00 [INF] Executed endpoint '/Index'
+2023-11-30 11:16:33.477 -05:00 [INF] Request finished in 464.525ms 200 text/html; charset=utf-8
+2023-11-30 11:16:33.540 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/lib/jquery/dist/jquery.min.js  
+2023-11-30 11:16:33.540 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/css/site.css  
+2023-11-30 11:16:33.540 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/lib/bootstrap/dist/css/bootstrap.min.css  
+2023-11-30 11:16:33.598 -05:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\wwwroot\lib\jquery\dist\jquery.min.js'
+2023-11-30 11:16:33.599 -05:00 [INF] Request finished in 58.7315ms 200 application/javascript
+2023-11-30 11:16:33.607 -05:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\wwwroot\css\site.css'
+2023-11-30 11:16:33.607 -05:00 [INF] Request finished in 66.7864ms 200 text/css
+2023-11-30 11:16:33.608 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/lib/bootstrap/dist/js/bootstrap.bundle.min.js  
+2023-11-30 11:16:33.609 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/js/site.js?v=dLGP40S79Xnx6GqUthRF6NWvjvhQ1nOvdVSwaNcgG18  
+2023-11-30 11:16:33.610 -05:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\wwwroot\js\site.js'
+2023-11-30 11:16:33.610 -05:00 [INF] Request finished in 0.594ms 200 application/javascript
+2023-11-30 11:16:33.680 -05:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2023-11-30 11:16:33.680 -05:00 [INF] Request finished in 140.5538ms 200 text/css
+2023-11-30 11:16:33.705 -05:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2023-11-30 11:16:33.705 -05:00 [INF] Request finished in 97.7641ms 200 application/javascript
+2023-11-30 11:18:08.869 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/swagger  
+2023-11-30 11:18:09.067 -05:00 [INF] Request finished in 201.3902ms 301 
+2023-11-30 11:18:09.070 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/swagger/index.html  
+2023-11-30 11:18:09.252 -05:00 [INF] Request finished in 181.9051ms 200 text/html;charset=utf-8
+2023-11-30 11:18:09.262 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/swagger/swagger-ui.css  
+2023-11-30 11:18:09.264 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/swagger/swagger-ui-bundle.js  
+2023-11-30 11:18:09.264 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/swagger/swagger-ui-standalone-preset.js  
+2023-11-30 11:18:09.301 -05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-11-30 11:18:09.302 -05:00 [INF] Request finished in 38.1954ms 200 application/javascript
+2023-11-30 11:18:09.313 -05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-11-30 11:18:09.314 -05:00 [INF] Request finished in 49.3545ms 200 application/javascript
+2023-11-30 11:18:09.329 -05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-11-30 11:18:09.329 -05:00 [INF] Request finished in 67.1706ms 200 text/css
+2023-11-30 11:18:09.428 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/swagger/v1/swagger.json  
+2023-11-30 11:18:09.443 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:44315/swagger/swagger-ui-bundle.js.map  
+2023-11-30 11:18:09.446 -05:00 [INF] Request finished in 3.084ms 404 
+2023-11-30 11:18:09.473 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:44315/swagger/swagger-ui-standalone-preset.js.map  
+2023-11-30 11:18:09.474 -05:00 [INF] Request finished in 0.7461ms 404 
+2023-11-30 11:18:09.555 -05:00 [INF] Request finished in 126.3894ms 200 application/json;charset=utf-8
+2023-11-30 11:18:15.281 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/api/Usuarios  
+2023-11-30 11:18:15.289 -05:00 [INF] Authorization failed.
+2023-11-30 11:18:15.292 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-11-30 11:18:15.293 -05:00 [INF] Request finished in 11.7101ms 401 
+2023-11-30 11:18:16.872 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/api/Usuarios  
+2023-11-30 11:18:16.874 -05:00 [INF] Authorization failed.
+2023-11-30 11:18:16.874 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-11-30 11:18:16.875 -05:00 [INF] Request finished in 3.3409ms 401 
+2023-11-30 11:18:33.451 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/api/Usuarios  
+2023-11-30 11:18:33.453 -05:00 [INF] Authorization failed.
+2023-11-30 11:18:33.454 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-11-30 11:18:33.454 -05:00 [INF] Request finished in 2.9305ms 401 
+2023-11-30 11:18:50.502 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/api/Usuarios  
+2023-11-30 11:18:50.503 -05:00 [INF] Authorization failed.
+2023-11-30 11:18:50.504 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-11-30 11:18:50.505 -05:00 [INF] Request finished in 2.2362ms 401 
+2023-11-30 11:18:51.561 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/api/Usuarios  
+2023-11-30 11:18:51.562 -05:00 [INF] Authorization failed.
+2023-11-30 11:18:51.562 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-11-30 11:18:51.563 -05:00 [INF] Request finished in 1.9723ms 401 
+2023-11-30 11:19:23.826 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:44315/api/Usuarios  
+2023-11-30 11:19:23.829 -05:00 [INF] Authorization failed.
+2023-11-30 11:19:23.829 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-11-30 11:19:23.830 -05:00 [INF] Request finished in 5.0006ms 401 
+2023-11-30 11:20:07.740 -05:00 [INF] Request starting HTTP/1.1 POST https://localhost:44315/api/Auth/login application/json 86
+2023-11-30 11:20:07.740 -05:00 [INF] Executing endpoint 'PruebaJoanAcosta.Controllers.AuthController.Login (PruebaJoanAcosta)'
+2023-11-30 11:20:07.768 -05:00 [INF] Route matched with {action = "Login", controller = "Auth", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[PruebaJoanAcosta.Data.UserDto]] Login(PruebaJoanAcosta.Data.LoginDto) on controller PruebaJoanAcosta.Controllers.AuthController (PruebaJoanAcosta).
+2023-11-30 11:20:08.151 -05:00 [INF] inciando sesion con los siguientes datos
+2023-11-30 11:20:08.151 -05:00 [INF] jaaq7919@gmail.com
+2023-11-30 11:20:08.152 -05:00 [INF] Abc4567$
+2023-11-30 11:20:08.658 -05:00 [INF] Entity Framework Core 3.1.32 initialized 'Conexion' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-11-30 11:20:09.469 -05:00 [INF] Executed DbCommand (170ms) [Parameters=[@__loginDto_CorreoUsuario_0='?' (Size = 4000), @__loginDto_ContrasenaUsuario_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[IdUsuario], [u].[ContrasenaUsuario], [u].[CorreoUsuario], [u].[NombreUsuario]
+FROM [Usuarios] AS [u]
+WHERE ([u].[CorreoUsuario] = @__loginDto_CorreoUsuario_0) AND ([u].[ContrasenaUsuario] = @__loginDto_ContrasenaUsuario_1)
+2023-11-30 11:20:09.518 -05:00 [INF] generando token
+2023-11-30 11:20:10.175 -05:00 [INF] finalizo generar token
+2023-11-30 11:20:10.180 -05:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-11-30 11:20:10.185 -05:00 [INF] Executed action PruebaJoanAcosta.Controllers.AuthController.Login (PruebaJoanAcosta) in 2416.9173ms
+2023-11-30 11:20:10.186 -05:00 [INF] Executed endpoint 'PruebaJoanAcosta.Controllers.AuthController.Login (PruebaJoanAcosta)'
+2023-11-30 11:20:10.188 -05:00 [INF] Request finished in 2451.8068ms 200 application/json; charset=utf-8
+2023-11-30 11:20:23.204 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:44315/api/Usuarios  
+2023-11-30 11:20:23.265 -05:00 [INF] Successfully validated the token.
+2023-11-30 11:20:23.266 -05:00 [INF] Authorization was successful.
+2023-11-30 11:20:23.267 -05:00 [INF] Executing endpoint 'PruebaJoanAcosta.Controllers.UsuariosController.GetUsuarios (PruebaJoanAcosta)'
+2023-11-30 11:20:23.271 -05:00 [INF] Route matched with {action = "GetUsuarios", controller = "Usuarios", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[PruebaJoanAcosta.Data.Usuario]]] GetUsuarios() on controller PruebaJoanAcosta.Controllers.UsuariosController (PruebaJoanAcosta).
+2023-11-30 11:20:23.282 -05:00 [INF] Executed action PruebaJoanAcosta.Controllers.UsuariosController.GetUsuarios (PruebaJoanAcosta) in 11.4162ms
+2023-11-30 11:20:23.283 -05:00 [INF] Executed endpoint 'PruebaJoanAcosta.Controllers.UsuariosController.GetUsuarios (PruebaJoanAcosta)'
+2023-11-30 11:20:23.284 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'PruebaJoanAcosta.Services.IUsuarioService' while attempting to activate 'PruebaJoanAcosta.Controllers.UsuariosController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-11-30 11:20:23.355 -05:00 [INF] Request finished in 150.3762ms 500 text/plain
+2023-11-30 11:20:27.067 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:44315/api/Usuarios  
+2023-11-30 11:20:27.068 -05:00 [INF] Successfully validated the token.
+2023-11-30 11:20:27.068 -05:00 [INF] Authorization was successful.
+2023-11-30 11:20:27.068 -05:00 [INF] Executing endpoint 'PruebaJoanAcosta.Controllers.UsuariosController.GetUsuarios (PruebaJoanAcosta)'
+2023-11-30 11:20:27.069 -05:00 [INF] Route matched with {action = "GetUsuarios", controller = "Usuarios", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[PruebaJoanAcosta.Data.Usuario]]] GetUsuarios() on controller PruebaJoanAcosta.Controllers.UsuariosController (PruebaJoanAcosta).
+2023-11-30 11:20:27.071 -05:00 [INF] Executed action PruebaJoanAcosta.Controllers.UsuariosController.GetUsuarios (PruebaJoanAcosta) in 1.7513ms
+2023-11-30 11:20:27.071 -05:00 [INF] Executed endpoint 'PruebaJoanAcosta.Controllers.UsuariosController.GetUsuarios (PruebaJoanAcosta)'
+2023-11-30 11:20:27.071 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'PruebaJoanAcosta.Services.IUsuarioService' while attempting to activate 'PruebaJoanAcosta.Controllers.UsuariosController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-11-30 11:20:27.072 -05:00 [INF] Request finished in 5.8459ms 500 text/plain
+2023-11-30 11:21:17.530 -05:00 [INF] Starting up
+2023-11-30 11:21:18.499 -05:00 [INF] User profile is available. Using 'C:\Users\LENOVO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-30 11:21:18.806 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-30 11:21:18.806 -05:00 [INF] Hosting environment: Development
+2023-11-30 11:21:18.807 -05:00 [INF] Content root path: D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta
+2023-11-30 11:21:18.837 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/  
+2023-11-30 11:21:18.933 -05:00 [INF] Executing endpoint '/Index'
+2023-11-30 11:21:18.979 -05:00 [INF] Route matched with {page = "/Index", action = "", controller = ""}. Executing page /Index
+2023-11-30 11:21:18.986 -05:00 [INF] Executing handler method PruebaJoanAcosta.Pages.IndexModel.OnGet - ModelState is "Valid"
+2023-11-30 11:21:18.987 -05:00 [INF] Executed handler method OnGet, returned result .
+2023-11-30 11:21:18.989 -05:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-11-30 11:21:18.989 -05:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-11-30 11:21:19.080 -05:00 [INF] Executed page /Index in 97.7134ms
+2023-11-30 11:21:19.080 -05:00 [INF] Executed endpoint '/Index'
+2023-11-30 11:21:19.084 -05:00 [INF] Request finished in 249.1464ms 200 text/html; charset=utf-8
+2023-11-30 11:21:19.094 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/lib/bootstrap/dist/css/bootstrap.min.css  
+2023-11-30 11:21:19.096 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/js/site.js?v=dLGP40S79Xnx6GqUthRF6NWvjvhQ1nOvdVSwaNcgG18  
+2023-11-30 11:21:19.096 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/lib/bootstrap/dist/js/bootstrap.bundle.min.js  
+2023-11-30 11:21:19.096 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/css/site.css  
+2023-11-30 11:21:19.096 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/lib/jquery/dist/jquery.min.js  
+2023-11-30 11:21:19.125 -05:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\wwwroot\css\site.css'
+2023-11-30 11:21:19.125 -05:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\wwwroot\js\site.js'
+2023-11-30 11:21:19.129 -05:00 [INF] Request finished in 32.3285ms 200 text/css
+2023-11-30 11:21:19.129 -05:00 [INF] Request finished in 33.4127ms 200 application/javascript
+2023-11-30 11:21:19.152 -05:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2023-11-30 11:21:19.152 -05:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2023-11-30 11:21:19.152 -05:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\wwwroot\lib\jquery\dist\jquery.min.js'
+2023-11-30 11:21:19.153 -05:00 [INF] Request finished in 58.6669ms 200 text/css
+2023-11-30 11:21:19.153 -05:00 [INF] Request finished in 57.0003ms 200 application/javascript
+2023-11-30 11:21:19.153 -05:00 [INF] Request finished in 56.9667ms 200 application/javascript
+2023-11-30 11:21:40.511 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/swagger  
+2023-11-30 11:21:40.620 -05:00 [INF] Request finished in 111.5404ms 301 
+2023-11-30 11:21:40.625 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/swagger/index.html  
+2023-11-30 11:21:40.750 -05:00 [INF] Request finished in 125.1715ms 200 text/html;charset=utf-8
+2023-11-30 11:21:40.765 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/swagger/swagger-ui.css  
+2023-11-30 11:21:40.767 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/swagger/swagger-ui-bundle.js  
+2023-11-30 11:21:40.767 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/swagger/swagger-ui-standalone-preset.js  
+2023-11-30 11:21:40.788 -05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-11-30 11:21:40.788 -05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-11-30 11:21:40.791 -05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-11-30 11:21:40.793 -05:00 [INF] Request finished in 26.1114ms 200 application/javascript
+2023-11-30 11:21:40.793 -05:00 [INF] Request finished in 26.1036ms 200 application/javascript
+2023-11-30 11:21:40.793 -05:00 [INF] Request finished in 28.061ms 200 text/css
+2023-11-30 11:21:40.895 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:44315/swagger/swagger-ui-bundle.js.map  
+2023-11-30 11:21:40.896 -05:00 [INF] Request finished in 1.1261ms 404 
+2023-11-30 11:21:40.965 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:44315/swagger/swagger-ui-standalone-preset.js.map  
+2023-11-30 11:21:40.966 -05:00 [INF] Request finished in 0.5813ms 404 
+2023-11-30 11:21:41.012 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/swagger/v1/swagger.json  
+2023-11-30 11:21:41.112 -05:00 [INF] Request finished in 100.3415ms 200 application/json;charset=utf-8
+2023-11-30 11:21:46.240 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:44315/api/Usuarios  
+2023-11-30 11:21:46.311 -05:00 [INF] Successfully validated the token.
+2023-11-30 11:21:46.315 -05:00 [INF] Authorization was successful.
+2023-11-30 11:21:46.315 -05:00 [INF] Executing endpoint 'PruebaJoanAcosta.Controllers.UsuariosController.GetUsuarios (PruebaJoanAcosta)'
+2023-11-30 11:21:46.332 -05:00 [INF] Route matched with {action = "GetUsuarios", controller = "Usuarios", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[PruebaJoanAcosta.Data.Usuario]]] GetUsuarios() on controller PruebaJoanAcosta.Controllers.UsuariosController (PruebaJoanAcosta).
+2023-11-30 11:21:59.489 -05:00 [INF] Executed action PruebaJoanAcosta.Controllers.UsuariosController.GetUsuarios (PruebaJoanAcosta) in 13156.6533ms
+2023-11-30 11:21:59.489 -05:00 [INF] Executed endpoint 'PruebaJoanAcosta.Controllers.UsuariosController.GetUsuarios (PruebaJoanAcosta)'
+2023-11-30 11:21:59.490 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at PruebaJoanAcosta.Services.UsuarioService.GetUsuarios() in D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\Services\UsuarioService.cs:line 17
+   at PruebaJoanAcosta.Controllers.UsuariosController.GetUsuarios() in D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\Controllers\UsuariosController.cs:line 43
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-11-30 11:21:59.633 -05:00 [INF] Request finished in 13392.3486ms 500 text/plain
+2023-11-30 11:22:15.576 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:44315/api/Usuarios  
+2023-11-30 11:22:15.579 -05:00 [INF] Successfully validated the token.
+2023-11-30 11:22:15.580 -05:00 [INF] Authorization was successful.
+2023-11-30 11:22:15.580 -05:00 [INF] Executing endpoint 'PruebaJoanAcosta.Controllers.UsuariosController.GetUsuarios (PruebaJoanAcosta)'
+2023-11-30 11:22:15.580 -05:00 [INF] Route matched with {action = "GetUsuarios", controller = "Usuarios", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[PruebaJoanAcosta.Data.Usuario]]] GetUsuarios() on controller PruebaJoanAcosta.Controllers.UsuariosController (PruebaJoanAcosta).
+2023-11-30 11:22:57.831 -05:00 [INF] Executed action PruebaJoanAcosta.Controllers.UsuariosController.GetUsuarios (PruebaJoanAcosta) in 42250.7815ms
+2023-11-30 11:22:57.832 -05:00 [INF] Executed endpoint 'PruebaJoanAcosta.Controllers.UsuariosController.GetUsuarios (PruebaJoanAcosta)'
+2023-11-30 11:22:57.832 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at PruebaJoanAcosta.Services.UsuarioService.GetUsuarios() in D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\Services\UsuarioService.cs:line 17
+   at PruebaJoanAcosta.Controllers.UsuariosController.GetUsuarios() in D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\Controllers\UsuariosController.cs:line 43
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-11-30 11:22:57.834 -05:00 [INF] Request finished in 42258.2135ms 500 text/plain
+2023-11-30 11:25:19.894 -05:00 [INF] Starting up
+2023-11-30 11:25:20.772 -05:00 [INF] User profile is available. Using 'C:\Users\LENOVO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-30 11:25:21.014 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-30 11:25:21.015 -05:00 [INF] Hosting environment: Development
+2023-11-30 11:25:21.015 -05:00 [INF] Content root path: D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta
+2023-11-30 11:25:21.043 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/  
+2023-11-30 11:25:21.131 -05:00 [INF] Executing endpoint '/Index'
+2023-11-30 11:25:21.176 -05:00 [INF] Route matched with {page = "/Index", action = "", controller = ""}. Executing page /Index
+2023-11-30 11:25:21.184 -05:00 [INF] Executing handler method PruebaJoanAcosta.Pages.IndexModel.OnGet - ModelState is "Valid"
+2023-11-30 11:25:21.185 -05:00 [INF] Executed handler method OnGet, returned result .
+2023-11-30 11:25:21.187 -05:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-11-30 11:25:21.187 -05:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-11-30 11:25:21.289 -05:00 [INF] Executed page /Index in 109.4556ms
+2023-11-30 11:25:21.289 -05:00 [INF] Executed endpoint '/Index'
+2023-11-30 11:25:21.294 -05:00 [INF] Request finished in 254.7967ms 200 text/html; charset=utf-8
+2023-11-30 11:25:21.305 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/lib/bootstrap/dist/css/bootstrap.min.css  
+2023-11-30 11:25:21.308 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/lib/jquery/dist/jquery.min.js  
+2023-11-30 11:25:21.308 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/lib/bootstrap/dist/js/bootstrap.bundle.min.js  
+2023-11-30 11:25:21.309 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/js/site.js?v=dLGP40S79Xnx6GqUthRF6NWvjvhQ1nOvdVSwaNcgG18  
+2023-11-30 11:25:21.308 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/css/site.css  
+2023-11-30 11:25:21.327 -05:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\wwwroot\css\site.css'
+2023-11-30 11:25:21.330 -05:00 [INF] Request finished in 21.6832ms 200 text/css
+2023-11-30 11:25:21.330 -05:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\wwwroot\js\site.js'
+2023-11-30 11:25:21.332 -05:00 [INF] Request finished in 23.7408ms 200 application/javascript
+2023-11-30 11:25:21.353 -05:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\wwwroot\lib\jquery\dist\jquery.min.js'
+2023-11-30 11:25:21.353 -05:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2023-11-30 11:25:21.353 -05:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2023-11-30 11:25:21.354 -05:00 [INF] Request finished in 49.5396ms 200 text/css
+2023-11-30 11:25:21.354 -05:00 [INF] Request finished in 46.3619ms 200 application/javascript
+2023-11-30 11:25:21.354 -05:00 [INF] Request finished in 46.5322ms 200 application/javascript
+2023-11-30 11:25:26.663 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:44315/api/Usuarios  
+2023-11-30 11:25:26.788 -05:00 [INF] Successfully validated the token.
+2023-11-30 11:25:26.791 -05:00 [INF] Authorization was successful.
+2023-11-30 11:25:26.792 -05:00 [INF] Executing endpoint 'PruebaJoanAcosta.Controllers.UsuariosController.GetUsuarios (PruebaJoanAcosta)'
+2023-11-30 11:25:26.805 -05:00 [INF] Route matched with {action = "GetUsuarios", controller = "Usuarios", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[PruebaJoanAcosta.Data.Usuario]]] GetUsuarios() on controller PruebaJoanAcosta.Controllers.UsuariosController (PruebaJoanAcosta).
+2023-11-30 11:25:29.627 -05:00 [INF] Entity Framework Core 3.1.32 initialized 'Conexion' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-11-30 11:25:30.055 -05:00 [INF] Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[IdUsuario], [u].[ContrasenaUsuario], [u].[CorreoUsuario], [u].[NombreUsuario]
+FROM [Usuarios] AS [u]
+2023-11-30 11:25:31.684 -05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[PruebaJoanAcosta.Data.Usuario, PruebaJoanAcosta, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-11-30 11:25:31.698 -05:00 [INF] Executed action PruebaJoanAcosta.Controllers.UsuariosController.GetUsuarios (PruebaJoanAcosta) in 4892.5098ms
+2023-11-30 11:25:31.698 -05:00 [INF] Executed endpoint 'PruebaJoanAcosta.Controllers.UsuariosController.GetUsuarios (PruebaJoanAcosta)'
+2023-11-30 11:25:31.700 -05:00 [INF] Request finished in 5037.9256ms 200 application/json; charset=utf-8
+2023-11-30 12:18:21.826 -05:00 [INF] Starting up
+2023-11-30 12:18:26.612 -05:00 [INF] User profile is available. Using 'C:\Users\LENOVO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-30 12:18:27.719 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-30 12:18:27.719 -05:00 [INF] Hosting environment: Development
+2023-11-30 12:18:27.719 -05:00 [INF] Content root path: D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta
+2023-11-30 12:18:27.754 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/  
+2023-11-30 12:18:28.505 -05:00 [INF] Executing endpoint '/Index'
+2023-11-30 12:18:28.558 -05:00 [INF] Route matched with {page = "/Index", action = "", controller = ""}. Executing page /Index
+2023-11-30 12:18:28.565 -05:00 [INF] Executing handler method PruebaJoanAcosta.Pages.IndexModel.OnGet - ModelState is "Valid"
+2023-11-30 12:18:28.568 -05:00 [INF] Executed handler method OnGet, returned result .
+2023-11-30 12:18:28.570 -05:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-11-30 12:18:28.570 -05:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-11-30 12:18:28.673 -05:00 [INF] Executed page /Index in 112.6006ms
+2023-11-30 12:18:28.674 -05:00 [INF] Executed endpoint '/Index'
+2023-11-30 12:18:28.677 -05:00 [INF] Request finished in 925.6547ms 200 text/html; charset=utf-8
+2023-11-30 12:18:28.695 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/css/site.css  
+2023-11-30 12:18:28.695 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/lib/jquery/dist/jquery.min.js  
+2023-11-30 12:18:28.695 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/lib/bootstrap/dist/css/bootstrap.min.css  
+2023-11-30 12:18:28.738 -05:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2023-11-30 12:18:28.738 -05:00 [INF] Request finished in 43.4238ms 200 text/css
+2023-11-30 12:18:28.745 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/lib/bootstrap/dist/js/bootstrap.bundle.min.js  
+2023-11-30 12:18:28.751 -05:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\wwwroot\css\site.css'
+2023-11-30 12:18:28.752 -05:00 [INF] Request finished in 56.7403ms 200 text/css
+2023-11-30 12:18:28.755 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/js/site.js?v=dLGP40S79Xnx6GqUthRF6NWvjvhQ1nOvdVSwaNcgG18  
+2023-11-30 12:18:28.756 -05:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\wwwroot\js\site.js'
+2023-11-30 12:18:28.756 -05:00 [INF] Request finished in 0.7096ms 200 application/javascript
+2023-11-30 12:18:29.056 -05:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\wwwroot\lib\jquery\dist\jquery.min.js'
+2023-11-30 12:18:29.056 -05:00 [INF] Request finished in 361.0024ms 200 application/javascript
+2023-11-30 12:18:29.125 -05:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2023-11-30 12:18:29.125 -05:00 [INF] Request finished in 380.2917ms 200 application/javascript
+2023-11-30 12:18:53.730 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/swagger  
+2023-11-30 12:18:53.862 -05:00 [INF] Request finished in 133.9823ms 301 
+2023-11-30 12:18:53.866 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/swagger/index.html  
+2023-11-30 12:18:54.026 -05:00 [INF] Request finished in 160.0714ms 200 text/html;charset=utf-8
+2023-11-30 12:18:54.037 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/swagger/swagger-ui.css  
+2023-11-30 12:18:54.039 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/swagger/swagger-ui-bundle.js  
+2023-11-30 12:18:54.039 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/swagger/swagger-ui-standalone-preset.js  
+2023-11-30 12:18:54.070 -05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-11-30 12:18:54.071 -05:00 [INF] Request finished in 31.8035ms 200 application/javascript
+2023-11-30 12:18:54.079 -05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-11-30 12:18:54.079 -05:00 [INF] Request finished in 39.994ms 200 application/javascript
+2023-11-30 12:18:54.084 -05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-11-30 12:18:54.084 -05:00 [INF] Request finished in 47.2637ms 200 text/css
+2023-11-30 12:18:54.198 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:44315/swagger/swagger-ui-bundle.js.map  
+2023-11-30 12:18:54.200 -05:00 [INF] Request finished in 1.7284ms 404 
+2023-11-30 12:18:54.268 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:44315/swagger/swagger-ui-standalone-preset.js.map  
+2023-11-30 12:18:54.269 -05:00 [INF] Request finished in 0.6362ms 404 
+2023-11-30 12:18:54.314 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/swagger/v1/swagger.json  
+2023-11-30 12:18:54.433 -05:00 [INF] Request finished in 119.0567ms 200 application/json;charset=utf-8
+2023-11-30 12:19:10.526 -05:00 [INF] Request starting HTTP/1.1 POST https://localhost:44315/api/Usuarios application/json 123
+2023-11-30 12:19:10.795 -05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', Current time: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2023-11-30 12:19:10.849 -05:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', Current time: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2023-11-30 12:19:10.852 -05:00 [INF] Authorization failed.
+2023-11-30 12:19:10.858 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-11-30 12:19:10.859 -05:00 [INF] Request finished in 334.1841ms 401 
+2023-11-30 12:19:15.519 -05:00 [INF] Request starting HTTP/1.1 POST https://localhost:44315/api/Auth/login application/json 86
+2023-11-30 12:19:15.521 -05:00 [INF] Executing endpoint 'PruebaJoanAcosta.Controllers.AuthController.Login (PruebaJoanAcosta)'
+2023-11-30 12:19:15.542 -05:00 [INF] Route matched with {action = "Login", controller = "Auth", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[PruebaJoanAcosta.Data.UserDto]] Login(PruebaJoanAcosta.Data.LoginDto) on controller PruebaJoanAcosta.Controllers.AuthController (PruebaJoanAcosta).
+2023-11-30 12:19:16.010 -05:00 [INF] inciando sesion con los siguientes datos
+2023-11-30 12:19:16.010 -05:00 [INF] jaaq7919@gmail.com
+2023-11-30 12:19:16.010 -05:00 [INF] Abc4567$
+2023-11-30 12:19:16.498 -05:00 [INF] Entity Framework Core 3.1.32 initialized 'Conexion' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-11-30 12:19:17.539 -05:00 [INF] Executed DbCommand (51ms) [Parameters=[@__loginDto_CorreoUsuario_0='?' (Size = 4000), @__loginDto_ContrasenaUsuario_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[IdUsuario], [u].[ContrasenaUsuario], [u].[CorreoUsuario], [u].[NombreUsuario]
+FROM [Usuarios] AS [u]
+WHERE ([u].[CorreoUsuario] = @__loginDto_CorreoUsuario_0) AND ([u].[ContrasenaUsuario] = @__loginDto_ContrasenaUsuario_1)
+2023-11-30 12:19:17.607 -05:00 [INF] generando token
+2023-11-30 12:19:17.615 -05:00 [INF] finalizo generar token
+2023-11-30 12:19:17.620 -05:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-11-30 12:19:17.624 -05:00 [INF] Executed action PruebaJoanAcosta.Controllers.AuthController.Login (PruebaJoanAcosta) in 2081.5667ms
+2023-11-30 12:19:17.624 -05:00 [INF] Executed endpoint 'PruebaJoanAcosta.Controllers.AuthController.Login (PruebaJoanAcosta)'
+2023-11-30 12:19:17.626 -05:00 [INF] Request finished in 2107.3584ms 200 application/json; charset=utf-8
+2023-11-30 12:19:30.607 -05:00 [INF] Request starting HTTP/1.1 POST https://localhost:44315/api/Usuarios application/json 123
+2023-11-30 12:19:30.617 -05:00 [INF] Successfully validated the token.
+2023-11-30 12:19:30.618 -05:00 [INF] Authorization was successful.
+2023-11-30 12:19:30.618 -05:00 [INF] Executing endpoint 'PruebaJoanAcosta.Controllers.UsuariosController.PostUsuario (PruebaJoanAcosta)'
+2023-11-30 12:19:30.622 -05:00 [INF] Route matched with {action = "PostUsuario", controller = "Usuarios", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[PruebaJoanAcosta.Data.Usuario]] PostUsuario(PruebaJoanAcosta.Data.Usuario) on controller PruebaJoanAcosta.Controllers.UsuariosController (PruebaJoanAcosta).
+2023-11-30 12:19:30.653 -05:00 [INF] Entity Framework Core 3.1.32 initialized 'Conexion' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-11-30 12:19:30.823 -05:00 [INF] Executed DbCommand (69ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Usuarios] ([ContrasenaUsuario], [CorreoUsuario], [NombreUsuario])
+VALUES (@p0, @p1, @p2);
+SELECT [IdUsuario]
+FROM [Usuarios]
+WHERE @@ROWCOUNT = 1 AND [IdUsuario] = scope_identity();
+2023-11-30 12:19:30.854 -05:00 [INF] Executing ObjectResult, writing value of type 'PruebaJoanAcosta.Data.Usuario'.
+2023-11-30 12:19:30.857 -05:00 [INF] Executed action PruebaJoanAcosta.Controllers.UsuariosController.PostUsuario (PruebaJoanAcosta) in 235.5006ms
+2023-11-30 12:19:30.858 -05:00 [INF] Executed endpoint 'PruebaJoanAcosta.Controllers.UsuariosController.PostUsuario (PruebaJoanAcosta)'
+2023-11-30 12:19:30.858 -05:00 [INF] Request finished in 250.7755ms 201 application/json; charset=utf-8
+2023-11-30 12:19:38.803 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:44315/api/Usuarios  
+2023-11-30 12:19:38.804 -05:00 [INF] Successfully validated the token.
+2023-11-30 12:19:38.805 -05:00 [INF] Authorization was successful.
+2023-11-30 12:19:38.805 -05:00 [INF] Executing endpoint 'PruebaJoanAcosta.Controllers.UsuariosController.GetUsuarios (PruebaJoanAcosta)'
+2023-11-30 12:19:38.808 -05:00 [INF] Route matched with {action = "GetUsuarios", controller = "Usuarios", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[PruebaJoanAcosta.Data.Usuario]]] GetUsuarios() on controller PruebaJoanAcosta.Controllers.UsuariosController (PruebaJoanAcosta).
+2023-11-30 12:19:40.493 -05:00 [INF] Entity Framework Core 3.1.32 initialized 'Conexion' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-11-30 12:19:40.500 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[IdUsuario], [u].[ContrasenaUsuario], [u].[CorreoUsuario], [u].[NombreUsuario]
+FROM [Usuarios] AS [u]
+2023-11-30 12:19:40.503 -05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[PruebaJoanAcosta.Data.Usuario, PruebaJoanAcosta, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-11-30 12:19:40.505 -05:00 [INF] Executed action PruebaJoanAcosta.Controllers.UsuariosController.GetUsuarios (PruebaJoanAcosta) in 1696.825ms
+2023-11-30 12:19:40.505 -05:00 [INF] Executed endpoint 'PruebaJoanAcosta.Controllers.UsuariosController.GetUsuarios (PruebaJoanAcosta)'
+2023-11-30 12:19:40.505 -05:00 [INF] Request finished in 1702.5716ms 200 application/json; charset=utf-8
+2023-11-30 13:01:53.747 -05:00 [INF] Starting up
+2023-11-30 13:01:59.302 -05:00 [INF] User profile is available. Using 'C:\Users\LENOVO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-30 13:02:00.160 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-30 13:02:00.161 -05:00 [INF] Hosting environment: Development
+2023-11-30 13:02:00.161 -05:00 [INF] Content root path: D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta
+2023-11-30 13:02:00.205 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/  
+2023-11-30 13:02:00.681 -05:00 [INF] Executing endpoint '/Index'
+2023-11-30 13:02:00.769 -05:00 [INF] Route matched with {page = "/Index", action = "", controller = ""}. Executing page /Index
+2023-11-30 13:02:00.777 -05:00 [INF] Executing handler method PruebaJoanAcosta.Pages.IndexModel.OnGet - ModelState is "Valid"
+2023-11-30 13:02:00.778 -05:00 [INF] Executed handler method OnGet, returned result .
+2023-11-30 13:02:00.781 -05:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-11-30 13:02:00.781 -05:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-11-30 13:02:00.893 -05:00 [INF] Executed page /Index in 120.5516ms
+2023-11-30 13:02:00.894 -05:00 [INF] Executed endpoint '/Index'
+2023-11-30 13:02:00.898 -05:00 [INF] Request finished in 695.2378ms 200 text/html; charset=utf-8
+2023-11-30 13:02:00.910 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/lib/jquery/dist/jquery.min.js  
+2023-11-30 13:02:00.910 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/lib/bootstrap/dist/css/bootstrap.min.css  
+2023-11-30 13:02:00.910 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/css/site.css  
+2023-11-30 13:02:00.959 -05:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2023-11-30 13:02:00.959 -05:00 [INF] Request finished in 49.8462ms 200 text/css
+2023-11-30 13:02:00.969 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/lib/bootstrap/dist/js/bootstrap.bundle.min.js  
+2023-11-30 13:02:01.011 -05:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\wwwroot\lib\jquery\dist\jquery.min.js'
+2023-11-30 13:02:01.011 -05:00 [INF] Request finished in 101.5353ms 200 application/javascript
+2023-11-30 13:02:01.018 -05:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\wwwroot\css\site.css'
+2023-11-30 13:02:01.018 -05:00 [INF] Request finished in 108.4981ms 200 text/css
+2023-11-30 13:02:01.021 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/js/site.js?v=dLGP40S79Xnx6GqUthRF6NWvjvhQ1nOvdVSwaNcgG18  
+2023-11-30 13:02:01.022 -05:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\wwwroot\js\site.js'
+2023-11-30 13:02:01.022 -05:00 [INF] Request finished in 0.7512ms 200 application/javascript
+2023-11-30 13:02:01.148 -05:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2023-11-30 13:02:01.149 -05:00 [INF] Request finished in 179.5332ms 200 application/javascript
+2023-11-30 13:02:37.433 -05:00 [INF] Request starting HTTP/1.1 POST https://localhost:44315/api/Auth/login application/json 86
+2023-11-30 13:02:37.452 -05:00 [INF] Executing endpoint 'PruebaJoanAcosta.Controllers.AuthController.Login (PruebaJoanAcosta)'
+2023-11-30 13:02:37.493 -05:00 [INF] Route matched with {action = "Login", controller = "Auth", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[PruebaJoanAcosta.Data.UserDto]] Login(PruebaJoanAcosta.Data.LoginDto) on controller PruebaJoanAcosta.Controllers.AuthController (PruebaJoanAcosta).
+2023-11-30 13:02:37.978 -05:00 [INF] inciando sesion con los siguientes datos
+2023-11-30 13:02:37.978 -05:00 [INF] jaaq7919@gmail.com
+2023-11-30 13:02:37.978 -05:00 [INF] Abc4567$
+2023-11-30 13:02:38.522 -05:00 [INF] Entity Framework Core 3.1.32 initialized 'Conexion' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-11-30 13:02:39.570 -05:00 [INF] Executed DbCommand (109ms) [Parameters=[@__loginDto_CorreoUsuario_0='?' (Size = 4000), @__loginDto_ContrasenaUsuario_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[IdUsuario], [u].[ContrasenaUsuario], [u].[CorreoUsuario], [u].[NombreUsuario]
+FROM [Usuarios] AS [u]
+WHERE ([u].[CorreoUsuario] = @__loginDto_CorreoUsuario_0) AND ([u].[ContrasenaUsuario] = @__loginDto_ContrasenaUsuario_1)
+2023-11-30 13:02:39.810 -05:00 [INF] Executed action PruebaJoanAcosta.Controllers.AuthController.Login (PruebaJoanAcosta) in 2317.1713ms
+2023-11-30 13:02:39.811 -05:00 [INF] Executed endpoint 'PruebaJoanAcosta.Controllers.AuthController.Login (PruebaJoanAcosta)'
+2023-11-30 13:02:39.816 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Enumerator failed to MoveNextAsync.
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at PruebaJoanAcosta.Services.AuthService.Login(LoginDto loginDto) in D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\Services\AuthService.cs:line 36
+   at PruebaJoanAcosta.Controllers.AuthController.Login(LoginDto loginDto) in D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\Controllers\AuthController.cs:line 35
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-11-30 13:02:39.968 -05:00 [INF] Request finished in 2541.074ms 500 text/plain
+2023-11-30 13:02:53.422 -05:00 [INF] Request starting HTTP/1.1 POST https://localhost:44315/api/Auth/login application/json 86
+2023-11-30 13:02:53.426 -05:00 [INF] Executing endpoint 'PruebaJoanAcosta.Controllers.AuthController.Login (PruebaJoanAcosta)'
+2023-11-30 13:02:53.427 -05:00 [INF] Route matched with {action = "Login", controller = "Auth", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[PruebaJoanAcosta.Data.UserDto]] Login(PruebaJoanAcosta.Data.LoginDto) on controller PruebaJoanAcosta.Controllers.AuthController (PruebaJoanAcosta).
+2023-11-30 13:02:53.432 -05:00 [INF] inciando sesion con los siguientes datos
+2023-11-30 13:02:53.432 -05:00 [INF] jaaq7919@gmail.com
+2023-11-30 13:02:53.432 -05:00 [INF] Abc4567$
+2023-11-30 13:02:53.450 -05:00 [INF] Entity Framework Core 3.1.32 initialized 'Conexion' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-11-30 13:02:53.459 -05:00 [INF] Executed DbCommand (5ms) [Parameters=[@__loginDto_CorreoUsuario_0='?' (Size = 4000), @__loginDto_ContrasenaUsuario_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[IdUsuario], [u].[ContrasenaUsuario], [u].[CorreoUsuario], [u].[NombreUsuario]
+FROM [Usuarios] AS [u]
+WHERE ([u].[CorreoUsuario] = @__loginDto_CorreoUsuario_0) AND ([u].[ContrasenaUsuario] = @__loginDto_ContrasenaUsuario_1)
+2023-11-30 13:02:53.512 -05:00 [INF] Executed action PruebaJoanAcosta.Controllers.AuthController.Login (PruebaJoanAcosta) in 85.3304ms
+2023-11-30 13:02:53.513 -05:00 [INF] Executed endpoint 'PruebaJoanAcosta.Controllers.AuthController.Login (PruebaJoanAcosta)'
+2023-11-30 13:02:53.514 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Enumerator failed to MoveNextAsync.
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at PruebaJoanAcosta.Services.AuthService.Login(LoginDto loginDto) in D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\Services\AuthService.cs:line 36
+   at PruebaJoanAcosta.Controllers.AuthController.Login(LoginDto loginDto) in D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\Controllers\AuthController.cs:line 35
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-11-30 13:02:53.517 -05:00 [INF] Request finished in 95.0628ms 500 text/plain
+2023-11-30 13:03:07.576 -05:00 [INF] Request starting HTTP/1.1 POST https://localhost:44315/api/Auth/login application/json 86
+2023-11-30 13:03:07.576 -05:00 [INF] Executing endpoint 'PruebaJoanAcosta.Controllers.AuthController.Login (PruebaJoanAcosta)'
+2023-11-30 13:03:07.577 -05:00 [INF] Route matched with {action = "Login", controller = "Auth", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[PruebaJoanAcosta.Data.UserDto]] Login(PruebaJoanAcosta.Data.LoginDto) on controller PruebaJoanAcosta.Controllers.AuthController (PruebaJoanAcosta).
+2023-11-30 13:03:07.581 -05:00 [INF] inciando sesion con los siguientes datos
+2023-11-30 13:03:07.581 -05:00 [INF] jaaq7919@gmail.com
+2023-11-30 13:03:07.581 -05:00 [INF] Abc4567$
+2023-11-30 13:03:07.586 -05:00 [INF] Entity Framework Core 3.1.32 initialized 'Conexion' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-11-30 13:03:07.590 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[@__loginDto_CorreoUsuario_0='?' (Size = 4000), @__loginDto_ContrasenaUsuario_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[IdUsuario], [u].[ContrasenaUsuario], [u].[CorreoUsuario], [u].[NombreUsuario]
+FROM [Usuarios] AS [u]
+WHERE ([u].[CorreoUsuario] = @__loginDto_CorreoUsuario_0) AND ([u].[ContrasenaUsuario] = @__loginDto_ContrasenaUsuario_1)
+2023-11-30 13:03:07.647 -05:00 [INF] Executed action PruebaJoanAcosta.Controllers.AuthController.Login (PruebaJoanAcosta) in 70.2383ms
+2023-11-30 13:03:07.648 -05:00 [INF] Executed endpoint 'PruebaJoanAcosta.Controllers.AuthController.Login (PruebaJoanAcosta)'
+2023-11-30 13:03:07.648 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Enumerator failed to MoveNextAsync.
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at PruebaJoanAcosta.Services.AuthService.Login(LoginDto loginDto) in D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\Services\AuthService.cs:line 36
+   at PruebaJoanAcosta.Controllers.AuthController.Login(LoginDto loginDto) in D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\Controllers\AuthController.cs:line 35
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-11-30 13:03:07.651 -05:00 [INF] Request finished in 75.8178ms 500 text/plain
+2023-11-30 13:03:17.942 -05:00 [INF] Request starting HTTP/1.1 POST https://localhost:44315/api/Auth/login application/json 86
+2023-11-30 13:03:17.943 -05:00 [INF] Executing endpoint 'PruebaJoanAcosta.Controllers.AuthController.Login (PruebaJoanAcosta)'
+2023-11-30 13:03:17.944 -05:00 [INF] Route matched with {action = "Login", controller = "Auth", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[PruebaJoanAcosta.Data.UserDto]] Login(PruebaJoanAcosta.Data.LoginDto) on controller PruebaJoanAcosta.Controllers.AuthController (PruebaJoanAcosta).
+2023-11-30 13:03:23.406 -05:00 [INF] inciando sesion con los siguientes datos
+2023-11-30 13:03:23.924 -05:00 [INF] jaaq7919@gmail.com
+2023-11-30 13:03:24.546 -05:00 [INF] Abc4567$
+2023-11-30 13:03:25.272 -05:00 [INF] Entity Framework Core 3.1.32 initialized 'Conexion' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-11-30 13:03:25.298 -05:00 [INF] Executed DbCommand (4ms) [Parameters=[@__loginDto_CorreoUsuario_0='?' (Size = 4000), @__loginDto_ContrasenaUsuario_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[IdUsuario], [u].[ContrasenaUsuario], [u].[CorreoUsuario], [u].[NombreUsuario]
+FROM [Usuarios] AS [u]
+WHERE ([u].[CorreoUsuario] = @__loginDto_CorreoUsuario_0) AND ([u].[ContrasenaUsuario] = @__loginDto_ContrasenaUsuario_1)
+2023-11-30 13:03:25.391 -05:00 [INF] Executed action PruebaJoanAcosta.Controllers.AuthController.Login (PruebaJoanAcosta) in 7447.7046ms
+2023-11-30 13:03:25.392 -05:00 [INF] Executed endpoint 'PruebaJoanAcosta.Controllers.AuthController.Login (PruebaJoanAcosta)'
+2023-11-30 13:03:25.392 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Enumerator failed to MoveNextAsync.
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at PruebaJoanAcosta.Services.AuthService.Login(LoginDto loginDto) in D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\Services\AuthService.cs:line 36
+   at PruebaJoanAcosta.Controllers.AuthController.Login(LoginDto loginDto) in D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\Controllers\AuthController.cs:line 35
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-11-30 13:03:25.395 -05:00 [INF] Request finished in 7452.7092ms 500 text/plain
+2023-11-30 13:03:51.698 -05:00 [INF] Request starting HTTP/1.1 POST https://localhost:44315/api/Auth/login application/json 86
+2023-11-30 13:03:51.702 -05:00 [INF] Executing endpoint 'PruebaJoanAcosta.Controllers.AuthController.Login (PruebaJoanAcosta)'
+2023-11-30 13:03:51.702 -05:00 [INF] Route matched with {action = "Login", controller = "Auth", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[PruebaJoanAcosta.Data.UserDto]] Login(PruebaJoanAcosta.Data.LoginDto) on controller PruebaJoanAcosta.Controllers.AuthController (PruebaJoanAcosta).
+2023-11-30 13:03:56.656 -05:00 [INF] inciando sesion con los siguientes datos
+2023-11-30 13:04:00.565 -05:00 [INF] jaaq7919@gmail.com
+2023-11-30 13:04:00.943 -05:00 [INF] Abc4567$
+2023-11-30 13:04:08.678 -05:00 [INF] Entity Framework Core 3.1.32 initialized 'Conexion' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-11-30 13:04:08.698 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[@__loginDto_CorreoUsuario_0='?' (Size = 4000), @__loginDto_ContrasenaUsuario_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[IdUsuario], [u].[ContrasenaUsuario], [u].[CorreoUsuario], [u].[NombreUsuario]
+FROM [Usuarios] AS [u]
+WHERE ([u].[CorreoUsuario] = @__loginDto_CorreoUsuario_0) AND ([u].[ContrasenaUsuario] = @__loginDto_ContrasenaUsuario_1)
+2023-11-30 13:04:08.784 -05:00 [INF] Executed action PruebaJoanAcosta.Controllers.AuthController.Login (PruebaJoanAcosta) in 17081.9979ms
+2023-11-30 13:04:08.785 -05:00 [INF] Executed endpoint 'PruebaJoanAcosta.Controllers.AuthController.Login (PruebaJoanAcosta)'
+2023-11-30 13:04:08.785 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Enumerator failed to MoveNextAsync.
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at PruebaJoanAcosta.Services.AuthService.Login(LoginDto loginDto) in D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\Services\AuthService.cs:line 36
+   at PruebaJoanAcosta.Controllers.AuthController.Login(LoginDto loginDto) in D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\Controllers\AuthController.cs:line 35
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-11-30 13:04:08.787 -05:00 [INF] Request finished in 17090.3908ms 500 text/plain
+2023-11-30 13:08:12.386 -05:00 [INF] Starting up
+2023-11-30 13:08:14.328 -05:00 [INF] User profile is available. Using 'C:\Users\LENOVO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-30 13:08:14.695 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-30 13:08:14.695 -05:00 [INF] Hosting environment: Development
+2023-11-30 13:08:14.695 -05:00 [INF] Content root path: D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta
+2023-11-30 13:08:14.728 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/  
+2023-11-30 13:08:14.929 -05:00 [INF] Executing endpoint '/Index'
+2023-11-30 13:08:14.981 -05:00 [INF] Route matched with {page = "/Index", action = "", controller = ""}. Executing page /Index
+2023-11-30 13:08:14.988 -05:00 [INF] Executing handler method PruebaJoanAcosta.Pages.IndexModel.OnGet - ModelState is "Valid"
+2023-11-30 13:08:14.990 -05:00 [INF] Executed handler method OnGet, returned result .
+2023-11-30 13:08:14.992 -05:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-11-30 13:08:14.992 -05:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-11-30 13:08:15.089 -05:00 [INF] Executed page /Index in 105.1247ms
+2023-11-30 13:08:15.090 -05:00 [INF] Executed endpoint '/Index'
+2023-11-30 13:08:15.093 -05:00 [INF] Request finished in 367.9799ms 200 text/html; charset=utf-8
+2023-11-30 13:08:15.115 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/css/site.css  
+2023-11-30 13:08:15.115 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/lib/bootstrap/dist/js/bootstrap.bundle.min.js  
+2023-11-30 13:08:15.115 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/js/site.js?v=dLGP40S79Xnx6GqUthRF6NWvjvhQ1nOvdVSwaNcgG18  
+2023-11-30 13:08:15.115 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/lib/bootstrap/dist/css/bootstrap.min.css  
+2023-11-30 13:08:15.115 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/lib/jquery/dist/jquery.min.js  
+2023-11-30 13:08:15.128 -05:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\wwwroot\css\site.css'
+2023-11-30 13:08:15.133 -05:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\wwwroot\js\site.js'
+2023-11-30 13:08:15.134 -05:00 [INF] Request finished in 13.2037ms 200 text/css
+2023-11-30 13:08:15.134 -05:00 [INF] Request finished in 18.6087ms 200 application/javascript
+2023-11-30 13:08:15.155 -05:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\wwwroot\lib\jquery\dist\jquery.min.js'
+2023-11-30 13:08:15.155 -05:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2023-11-30 13:08:15.155 -05:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2023-11-30 13:08:15.156 -05:00 [INF] Request finished in 40.792ms 200 text/css
+2023-11-30 13:08:15.156 -05:00 [INF] Request finished in 40.7921ms 200 application/javascript
+2023-11-30 13:08:15.156 -05:00 [INF] Request finished in 40.7879ms 200 application/javascript
+2023-11-30 13:08:19.337 -05:00 [INF] Request starting HTTP/1.1 POST https://localhost:44315/api/Auth/login application/json 86
+2023-11-30 13:08:19.339 -05:00 [INF] Executing endpoint 'PruebaJoanAcosta.Controllers.AuthController.Login (PruebaJoanAcosta)'
+2023-11-30 13:08:19.361 -05:00 [INF] Route matched with {action = "Login", controller = "Auth", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[PruebaJoanAcosta.Data.UserDto]] Login(PruebaJoanAcosta.Data.LoginDto) on controller PruebaJoanAcosta.Controllers.AuthController (PruebaJoanAcosta).
+2023-11-30 13:08:22.783 -05:00 [INF] inciando sesion con los siguientes datos
+2023-11-30 13:08:22.941 -05:00 [INF] jaaq7919@gmail.com
+2023-11-30 13:08:23.129 -05:00 [INF] Abc4567$
+2023-11-30 13:08:25.012 -05:00 [INF] Entity Framework Core 3.1.32 initialized 'Conexion' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-11-30 13:08:25.627 -05:00 [INF] Executed DbCommand (55ms) [Parameters=[@__loginDto_CorreoUsuario_0='?' (Size = 4000), @__loginDto_ContrasenaUsuario_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[IdUsuario], [u].[ContrasenaUsuario], [u].[CorreoUsuario], [u].[NombreUsuario]
+FROM [Usuarios] AS [u]
+WHERE ([u].[CorreoUsuario] = @__loginDto_CorreoUsuario_0) AND ([u].[ContrasenaUsuario] = @__loginDto_ContrasenaUsuario_1)
+2023-11-30 13:08:25.818 -05:00 [INF] Executed action PruebaJoanAcosta.Controllers.AuthController.Login (PruebaJoanAcosta) in 6457.6118ms
+2023-11-30 13:08:25.819 -05:00 [INF] Executed endpoint 'PruebaJoanAcosta.Controllers.AuthController.Login (PruebaJoanAcosta)'
+2023-11-30 13:08:25.822 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Enumerator failed to MoveNextAsync.
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at PruebaJoanAcosta.Services.AuthService.Login(LoginDto loginDto) in D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\Services\AuthService.cs:line 42
+   at PruebaJoanAcosta.Controllers.AuthController.Login(LoginDto loginDto) in D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\Controllers\AuthController.cs:line 35
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-11-30 13:08:25.905 -05:00 [INF] Request finished in 6569.9181ms 500 text/plain
+2023-11-30 13:10:57.030 -05:00 [INF] Starting up
+2023-11-30 13:10:58.109 -05:00 [INF] User profile is available. Using 'C:\Users\LENOVO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-30 13:10:58.442 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-30 13:10:58.442 -05:00 [INF] Hosting environment: Development
+2023-11-30 13:10:58.442 -05:00 [INF] Content root path: D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta
+2023-11-30 13:10:58.476 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/  
+2023-11-30 13:10:58.574 -05:00 [INF] Executing endpoint '/Index'
+2023-11-30 13:10:58.620 -05:00 [INF] Route matched with {page = "/Index", action = "", controller = ""}. Executing page /Index
+2023-11-30 13:10:58.627 -05:00 [INF] Executing handler method PruebaJoanAcosta.Pages.IndexModel.OnGet - ModelState is "Valid"
+2023-11-30 13:10:58.629 -05:00 [INF] Executed handler method OnGet, returned result .
+2023-11-30 13:10:58.631 -05:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-11-30 13:10:58.631 -05:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-11-30 13:10:58.732 -05:00 [INF] Executed page /Index in 109.5455ms
+2023-11-30 13:10:58.733 -05:00 [INF] Executed endpoint '/Index'
+2023-11-30 13:10:58.737 -05:00 [INF] Request finished in 263.8064ms 200 text/html; charset=utf-8
+2023-11-30 13:10:58.748 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/lib/bootstrap/dist/css/bootstrap.min.css  
+2023-11-30 13:10:58.750 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/css/site.css  
+2023-11-30 13:10:58.750 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/js/site.js?v=dLGP40S79Xnx6GqUthRF6NWvjvhQ1nOvdVSwaNcgG18  
+2023-11-30 13:10:58.750 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/lib/jquery/dist/jquery.min.js  
+2023-11-30 13:10:58.758 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/lib/bootstrap/dist/js/bootstrap.bundle.min.js  
+2023-11-30 13:10:58.778 -05:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\wwwroot\css\site.css'
+2023-11-30 13:10:58.781 -05:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\wwwroot\js\site.js'
+2023-11-30 13:10:58.781 -05:00 [INF] Request finished in 28.2905ms 200 text/css
+2023-11-30 13:10:58.781 -05:00 [INF] Request finished in 31.0849ms 200 application/javascript
+2023-11-30 13:10:58.808 -05:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2023-11-30 13:10:58.808 -05:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2023-11-30 13:10:58.808 -05:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\wwwroot\lib\jquery\dist\jquery.min.js'
+2023-11-30 13:10:58.810 -05:00 [INF] Request finished in 61.6718ms 200 text/css
+2023-11-30 13:10:58.810 -05:00 [INF] Request finished in 51.5806ms 200 application/javascript
+2023-11-30 13:10:58.810 -05:00 [INF] Request finished in 59.6366ms 200 application/javascript
+2023-11-30 13:11:03.100 -05:00 [INF] Request starting HTTP/1.1 POST https://localhost:44315/api/Auth/login application/json 86
+2023-11-30 13:11:03.102 -05:00 [INF] Executing endpoint 'PruebaJoanAcosta.Controllers.AuthController.Login (PruebaJoanAcosta)'
+2023-11-30 13:11:03.124 -05:00 [INF] Route matched with {action = "Login", controller = "Auth", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[PruebaJoanAcosta.Data.UserDto]] Login(PruebaJoanAcosta.Data.LoginDto) on controller PruebaJoanAcosta.Controllers.AuthController (PruebaJoanAcosta).
+2023-11-30 13:11:05.266 -05:00 [INF] inciando sesion con los siguientes datos
+2023-11-30 13:11:05.533 -05:00 [INF] jaaq7919@gmail.com
+2023-11-30 13:11:05.743 -05:00 [INF] Abc4567$
+2023-11-30 13:11:06.862 -05:00 [INF] Entity Framework Core 3.1.32 initialized 'Conexion' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-11-30 13:11:07.383 -05:00 [INF] Executed DbCommand (48ms) [Parameters=[@__loginDto_CorreoUsuario_0='?' (Size = 4000), @__loginDto_ContrasenaUsuario_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[IdUsuario], [u].[ContrasenaUsuario], [u].[CorreoUsuario], [u].[NombreUsuario]
+FROM [Usuarios] AS [u]
+WHERE ([u].[CorreoUsuario] = @__loginDto_CorreoUsuario_0) AND ([u].[ContrasenaUsuario] = @__loginDto_ContrasenaUsuario_1)
+2023-11-30 13:11:07.577 -05:00 [INF] Executed action PruebaJoanAcosta.Controllers.AuthController.Login (PruebaJoanAcosta) in 4452.5614ms
+2023-11-30 13:11:07.578 -05:00 [INF] Executed endpoint 'PruebaJoanAcosta.Controllers.AuthController.Login (PruebaJoanAcosta)'
+2023-11-30 13:11:07.582 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Enumerator failed to MoveNextAsync.
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at PruebaJoanAcosta.Services.AuthService.Login(LoginDto loginDto) in D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\Services\AuthService.cs:line 36
+   at PruebaJoanAcosta.Controllers.AuthController.Login(LoginDto loginDto) in D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\Controllers\AuthController.cs:line 35
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-11-30 13:11:07.656 -05:00 [INF] Request finished in 4557.1077ms 500 text/plain
+2023-11-30 13:11:35.468 -05:00 [INF] Request starting HTTP/1.1 POST https://localhost:44315/api/Usuarios application/json 123
+2023-11-30 13:11:35.770 -05:00 [INF] Successfully validated the token.
+2023-11-30 13:11:35.776 -05:00 [INF] Authorization was successful.
+2023-11-30 13:11:35.776 -05:00 [INF] Executing endpoint 'PruebaJoanAcosta.Controllers.UsuariosController.PostUsuario (PruebaJoanAcosta)'
+2023-11-30 13:11:35.810 -05:00 [INF] Route matched with {action = "PostUsuario", controller = "Usuarios", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[PruebaJoanAcosta.Data.Usuario]] PostUsuario(PruebaJoanAcosta.Data.Usuario) on controller PruebaJoanAcosta.Controllers.UsuariosController (PruebaJoanAcosta).
+2023-11-30 13:11:35.839 -05:00 [INF] Entity Framework Core 3.1.32 initialized 'Conexion' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-11-30 13:11:36.014 -05:00 [INF] Executed DbCommand (57ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Usuarios] ([ContrasenaUsuario], [CorreoUsuario], [NombreUsuario])
+VALUES (@p0, @p1, @p2);
+SELECT [IdUsuario]
+FROM [Usuarios]
+WHERE @@ROWCOUNT = 1 AND [IdUsuario] = scope_identity();
+2023-11-30 13:11:36.051 -05:00 [INF] Executing ObjectResult, writing value of type 'PruebaJoanAcosta.Data.Usuario'.
+2023-11-30 13:11:36.059 -05:00 [INF] Executed action PruebaJoanAcosta.Controllers.UsuariosController.PostUsuario (PruebaJoanAcosta) in 248.8701ms
+2023-11-30 13:11:36.059 -05:00 [INF] Executed endpoint 'PruebaJoanAcosta.Controllers.UsuariosController.PostUsuario (PruebaJoanAcosta)'
+2023-11-30 13:11:36.059 -05:00 [INF] Request finished in 593.7038ms 201 application/json; charset=utf-8
+2023-11-30 13:11:41.843 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:44315/api/Usuarios  
+2023-11-30 13:11:41.846 -05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', Current time: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2023-11-30 13:11:41.850 -05:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', Current time: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2023-11-30 13:11:41.851 -05:00 [INF] Authorization failed.
+2023-11-30 13:11:41.857 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-11-30 13:11:41.858 -05:00 [INF] Request finished in 15.0183ms 401 
+2023-11-30 13:11:50.337 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:44315/api/Usuarios  
+2023-11-30 13:11:50.339 -05:00 [INF] Successfully validated the token.
+2023-11-30 13:11:50.340 -05:00 [INF] Authorization was successful.
+2023-11-30 13:11:50.340 -05:00 [INF] Executing endpoint 'PruebaJoanAcosta.Controllers.UsuariosController.GetUsuarios (PruebaJoanAcosta)'
+2023-11-30 13:11:50.343 -05:00 [INF] Route matched with {action = "GetUsuarios", controller = "Usuarios", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[PruebaJoanAcosta.Data.Usuario]]] GetUsuarios() on controller PruebaJoanAcosta.Controllers.UsuariosController (PruebaJoanAcosta).
+2023-11-30 13:11:50.352 -05:00 [INF] Entity Framework Core 3.1.32 initialized 'Conexion' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-11-30 13:11:50.360 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[IdUsuario], [u].[ContrasenaUsuario], [u].[CorreoUsuario], [u].[NombreUsuario]
+FROM [Usuarios] AS [u]
+2023-11-30 13:11:50.363 -05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[PruebaJoanAcosta.Data.Usuario, PruebaJoanAcosta, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-11-30 13:11:50.366 -05:00 [INF] Executed action PruebaJoanAcosta.Controllers.UsuariosController.GetUsuarios (PruebaJoanAcosta) in 22.4041ms
+2023-11-30 13:11:50.366 -05:00 [INF] Executed endpoint 'PruebaJoanAcosta.Controllers.UsuariosController.GetUsuarios (PruebaJoanAcosta)'
+2023-11-30 13:11:50.366 -05:00 [INF] Request finished in 29.135ms 200 application/json; charset=utf-8
+2023-11-30 13:13:40.442 -05:00 [INF] Starting up
+2023-11-30 13:13:45.261 -05:00 [INF] User profile is available. Using 'C:\Users\LENOVO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-30 13:13:46.088 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-30 13:13:46.088 -05:00 [INF] Hosting environment: Development
+2023-11-30 13:13:46.088 -05:00 [INF] Content root path: D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta
+2023-11-30 13:13:46.122 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/  
+2023-11-30 13:13:46.866 -05:00 [INF] Executing endpoint '/Index'
+2023-11-30 13:13:46.909 -05:00 [INF] Route matched with {page = "/Index", action = "", controller = ""}. Executing page /Index
+2023-11-30 13:13:46.916 -05:00 [INF] Executing handler method PruebaJoanAcosta.Pages.IndexModel.OnGet - ModelState is "Valid"
+2023-11-30 13:13:46.917 -05:00 [INF] Executed handler method OnGet, returned result .
+2023-11-30 13:13:46.920 -05:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-11-30 13:13:46.920 -05:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-11-30 13:13:47.004 -05:00 [INF] Executed page /Index in 92.1456ms
+2023-11-30 13:13:47.005 -05:00 [INF] Executed endpoint '/Index'
+2023-11-30 13:13:47.009 -05:00 [INF] Request finished in 889.4893ms 200 text/html; charset=utf-8
+2023-11-30 13:13:47.020 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/lib/bootstrap/dist/css/bootstrap.min.css  
+2023-11-30 13:13:47.020 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/lib/bootstrap/dist/js/bootstrap.bundle.min.js  
+2023-11-30 13:13:47.020 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/js/site.js?v=dLGP40S79Xnx6GqUthRF6NWvjvhQ1nOvdVSwaNcgG18  
+2023-11-30 13:13:47.020 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/lib/jquery/dist/jquery.min.js  
+2023-11-30 13:13:47.020 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/css/site.css  
+2023-11-30 13:13:47.042 -05:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\wwwroot\js\site.js'
+2023-11-30 13:13:47.042 -05:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\wwwroot\css\site.css'
+2023-11-30 13:13:47.045 -05:00 [INF] Request finished in 25.0182ms 200 text/css
+2023-11-30 13:13:47.048 -05:00 [INF] Request finished in 24.9988ms 200 application/javascript
+2023-11-30 13:13:47.071 -05:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2023-11-30 13:13:47.071 -05:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\wwwroot\lib\jquery\dist\jquery.min.js'
+2023-11-30 13:13:47.071 -05:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2023-11-30 13:13:47.073 -05:00 [INF] Request finished in 52.5888ms 200 text/css
+2023-11-30 13:13:47.073 -05:00 [INF] Request finished in 52.5829ms 200 application/javascript
+2023-11-30 13:13:47.073 -05:00 [INF] Request finished in 52.5854ms 200 application/javascript
+2023-11-30 13:13:56.243 -05:00 [INF] Request starting HTTP/1.1 POST https://localhost:44315/api/Auth/login application/json 86
+2023-11-30 13:13:56.246 -05:00 [INF] Executing endpoint 'PruebaJoanAcosta.Controllers.AuthController.Login (PruebaJoanAcosta)'
+2023-11-30 13:13:56.267 -05:00 [INF] Route matched with {action = "Login", controller = "Auth", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[PruebaJoanAcosta.Data.UserDto]] Login(PruebaJoanAcosta.Data.LoginDto) on controller PruebaJoanAcosta.Controllers.AuthController (PruebaJoanAcosta).
+2023-11-30 13:13:58.980 -05:00 [INF] inciando sesion con los siguientes datos
+2023-11-30 13:13:58.980 -05:00 [INF] jaaq7919@gmail.com
+2023-11-30 13:13:58.980 -05:00 [INF] Abc4567$
+2023-11-30 13:13:59.425 -05:00 [INF] Entity Framework Core 3.1.32 initialized 'Conexion' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-11-30 13:14:01.785 -05:00 [INF] Executed DbCommand (77ms) [Parameters=[@__loginDto_CorreoUsuario_0='?' (Size = 4000), @__loginDto_ContrasenaUsuario_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[IdUsuario], [u].[ContrasenaUsuario], [u].[CorreoUsuario], [u].[NombreUsuario]
+FROM [Usuarios] AS [u]
+WHERE ([u].[CorreoUsuario] = @__loginDto_CorreoUsuario_0) AND ([u].[ContrasenaUsuario] = @__loginDto_ContrasenaUsuario_1)
+2023-11-30 13:14:01.988 -05:00 [INF] Executed action PruebaJoanAcosta.Controllers.AuthController.Login (PruebaJoanAcosta) in 5720.8692ms
+2023-11-30 13:14:01.989 -05:00 [INF] Executed endpoint 'PruebaJoanAcosta.Controllers.AuthController.Login (PruebaJoanAcosta)'
+2023-11-30 13:14:01.993 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Enumerator failed to MoveNextAsync.
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at PruebaJoanAcosta.Services.AuthService.Login(LoginDto loginDto) in D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\Services\AuthService.cs:line 36
+   at PruebaJoanAcosta.Controllers.AuthController.Login(LoginDto loginDto) in D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\Controllers\AuthController.cs:line 35
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-11-30 13:14:02.061 -05:00 [INF] Request finished in 5818.9ms 500 text/plain
+2023-11-30 13:17:58.177 -05:00 [INF] Request starting HTTP/1.1 POST https://localhost:44315/api/Auth/login application/json 86
+2023-11-30 13:17:58.181 -05:00 [INF] Executing endpoint 'PruebaJoanAcosta.Controllers.AuthController.Login (PruebaJoanAcosta)'
+2023-11-30 13:17:58.182 -05:00 [INF] Route matched with {action = "Login", controller = "Auth", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[PruebaJoanAcosta.Data.UserDto]] Login(PruebaJoanAcosta.Data.LoginDto) on controller PruebaJoanAcosta.Controllers.AuthController (PruebaJoanAcosta).
+2023-11-30 13:17:59.928 -05:00 [INF] inciando sesion con los siguientes datos
+2023-11-30 13:17:59.928 -05:00 [INF] jaaq7919@gmail.com
+2023-11-30 13:17:59.928 -05:00 [INF] Abc4567$
+2023-11-30 13:17:59.952 -05:00 [INF] Entity Framework Core 3.1.32 initialized 'Conexion' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-11-30 13:17:59.960 -05:00 [INF] Executed DbCommand (4ms) [Parameters=[@__loginDto_CorreoUsuario_0='?' (Size = 4000), @__loginDto_ContrasenaUsuario_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[IdUsuario], [u].[ContrasenaUsuario], [u].[CorreoUsuario], [u].[NombreUsuario]
+FROM [Usuarios] AS [u]
+WHERE ([u].[CorreoUsuario] = @__loginDto_CorreoUsuario_0) AND ([u].[ContrasenaUsuario] = @__loginDto_ContrasenaUsuario_1)
+2023-11-30 13:18:00.022 -05:00 [INF] Executed action PruebaJoanAcosta.Controllers.AuthController.Login (PruebaJoanAcosta) in 1840.5146ms
+2023-11-30 13:18:00.023 -05:00 [INF] Executed endpoint 'PruebaJoanAcosta.Controllers.AuthController.Login (PruebaJoanAcosta)'
+2023-11-30 13:18:00.023 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Enumerator failed to MoveNextAsync.
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at PruebaJoanAcosta.Services.AuthService.Login(LoginDto loginDto) in D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\Services\AuthService.cs:line 36
+   at PruebaJoanAcosta.Controllers.AuthController.Login(LoginDto loginDto) in D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\Controllers\AuthController.cs:line 35
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-11-30 13:18:00.026 -05:00 [INF] Request finished in 1850.3398ms 500 text/plain
+2023-11-30 13:21:12.685 -05:00 [INF] Request starting HTTP/1.1 POST https://localhost:44315/api/Auth/login application/json 86
+2023-11-30 13:21:12.686 -05:00 [INF] Executing endpoint 'PruebaJoanAcosta.Controllers.AuthController.Login (PruebaJoanAcosta)'
+2023-11-30 13:21:12.686 -05:00 [INF] Route matched with {action = "Login", controller = "Auth", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[PruebaJoanAcosta.Data.UserDto]] Login(PruebaJoanAcosta.Data.LoginDto) on controller PruebaJoanAcosta.Controllers.AuthController (PruebaJoanAcosta).
+2023-11-30 13:21:14.530 -05:00 [INF] inciando sesion con los siguientes datos
+2023-11-30 13:21:14.530 -05:00 [INF] jaaq7919@gmail.com
+2023-11-30 13:21:14.530 -05:00 [INF] Abc4567$
+2023-11-30 13:21:14.535 -05:00 [INF] Entity Framework Core 3.1.32 initialized 'Conexion' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-11-30 13:21:14.540 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[@__loginDto_CorreoUsuario_0='?' (Size = 4000), @__loginDto_ContrasenaUsuario_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[IdUsuario], [u].[ContrasenaUsuario], [u].[CorreoUsuario], [u].[NombreUsuario]
+FROM [Usuarios] AS [u]
+WHERE ([u].[CorreoUsuario] = @__loginDto_CorreoUsuario_0) AND ([u].[ContrasenaUsuario] = @__loginDto_ContrasenaUsuario_1)
+2023-11-30 13:21:14.598 -05:00 [INF] Executed action PruebaJoanAcosta.Controllers.AuthController.Login (PruebaJoanAcosta) in 1911.4759ms
+2023-11-30 13:21:14.598 -05:00 [INF] Executed endpoint 'PruebaJoanAcosta.Controllers.AuthController.Login (PruebaJoanAcosta)'
+2023-11-30 13:21:14.599 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Enumerator failed to MoveNextAsync.
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at PruebaJoanAcosta.Services.AuthService.Login(LoginDto loginDto) in D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\Services\AuthService.cs:line 36
+   at PruebaJoanAcosta.Controllers.AuthController.Login(LoginDto loginDto) in D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\Controllers\AuthController.cs:line 35
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-11-30 13:21:14.604 -05:00 [INF] Request finished in 1919.5742ms 500 text/plain
+2023-11-30 13:22:07.634 -05:00 [INF] Request starting HTTP/1.1 POST https://localhost:44315/api/Auth/login application/json 86
+2023-11-30 13:22:07.635 -05:00 [INF] Executing endpoint 'PruebaJoanAcosta.Controllers.AuthController.Login (PruebaJoanAcosta)'
+2023-11-30 13:22:07.636 -05:00 [INF] Route matched with {action = "Login", controller = "Auth", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[PruebaJoanAcosta.Data.UserDto]] Login(PruebaJoanAcosta.Data.LoginDto) on controller PruebaJoanAcosta.Controllers.AuthController (PruebaJoanAcosta).
+2023-11-30 13:22:09.017 -05:00 [INF] inciando sesion con los siguientes datos
+2023-11-30 13:22:09.017 -05:00 [INF] jaaq7919@gmail.com
+2023-11-30 13:22:09.017 -05:00 [INF] Abc4567$
+2023-11-30 13:22:09.017 -05:00 [INF] Entity Framework Core 3.1.32 initialized 'Conexion' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-11-30 13:22:09.027 -05:00 [INF] Executed DbCommand (7ms) [Parameters=[@__loginDto_CorreoUsuario_0='?' (Size = 4000), @__loginDto_ContrasenaUsuario_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[IdUsuario], [u].[ContrasenaUsuario], [u].[CorreoUsuario], [u].[NombreUsuario]
+FROM [Usuarios] AS [u]
+WHERE ([u].[CorreoUsuario] = @__loginDto_CorreoUsuario_0) AND ([u].[ContrasenaUsuario] = @__loginDto_ContrasenaUsuario_1)
+2023-11-30 13:22:09.028 -05:00 [INF] generando token
+2023-11-30 13:22:10.187 -05:00 [INF] finalizo generar token
+2023-11-30 13:22:10.192 -05:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-11-30 13:22:10.202 -05:00 [INF] Executed action PruebaJoanAcosta.Controllers.AuthController.Login (PruebaJoanAcosta) in 2565.4967ms
+2023-11-30 13:22:10.202 -05:00 [INF] Executed endpoint 'PruebaJoanAcosta.Controllers.AuthController.Login (PruebaJoanAcosta)'
+2023-11-30 13:22:10.202 -05:00 [INF] Request finished in 2568.0561ms 200 application/json; charset=utf-8
+2023-11-30 13:37:20.587 -05:00 [INF] Starting up
+2023-11-30 13:37:23.383 -05:00 [INF] User profile is available. Using 'C:\Users\LENOVO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-30 13:37:23.883 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-30 13:37:23.883 -05:00 [INF] Hosting environment: Development
+2023-11-30 13:37:23.883 -05:00 [INF] Content root path: D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta
+2023-11-30 13:37:23.921 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/  
+2023-11-30 13:37:24.236 -05:00 [INF] Executing endpoint '/Index'
+2023-11-30 13:37:24.307 -05:00 [INF] Route matched with {page = "/Index", action = "", controller = ""}. Executing page /Index
+2023-11-30 13:37:24.315 -05:00 [INF] Executing handler method PruebaJoanAcosta.Pages.IndexModel.OnGet - ModelState is "Valid"
+2023-11-30 13:37:24.317 -05:00 [INF] Executed handler method OnGet, returned result .
+2023-11-30 13:37:24.319 -05:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-11-30 13:37:24.319 -05:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-11-30 13:37:24.409 -05:00 [INF] Executed page /Index in 98.4922ms
+2023-11-30 13:37:24.409 -05:00 [INF] Executed endpoint '/Index'
+2023-11-30 13:37:24.414 -05:00 [INF] Request finished in 495.5652ms 200 text/html; charset=utf-8
+2023-11-30 13:37:24.423 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/lib/bootstrap/dist/css/bootstrap.min.css  
+2023-11-30 13:37:24.426 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/lib/jquery/dist/jquery.min.js  
+2023-11-30 13:37:24.426 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/js/site.js?v=dLGP40S79Xnx6GqUthRF6NWvjvhQ1nOvdVSwaNcgG18  
+2023-11-30 13:37:24.427 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/css/site.css  
+2023-11-30 13:37:24.427 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/lib/bootstrap/dist/js/bootstrap.bundle.min.js  
+2023-11-30 13:37:24.484 -05:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\wwwroot\js\site.js'
+2023-11-30 13:37:24.486 -05:00 [INF] Request finished in 60.0608ms 200 application/javascript
+2023-11-30 13:37:24.499 -05:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\wwwroot\css\site.css'
+2023-11-30 13:37:24.499 -05:00 [INF] Request finished in 72.8139ms 200 text/css
+2023-11-30 13:37:24.500 -05:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2023-11-30 13:37:24.500 -05:00 [INF] Request finished in 77.2196ms 200 text/css
+2023-11-30 13:37:24.508 -05:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\wwwroot\lib\jquery\dist\jquery.min.js'
+2023-11-30 13:37:24.508 -05:00 [INF] Request finished in 82.4854ms 200 application/javascript
+2023-11-30 13:37:24.519 -05:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2023-11-30 13:37:24.519 -05:00 [INF] Request finished in 93.344ms 200 application/javascript
+2023-11-30 13:52:04.867 -05:00 [INF] Starting up
+2023-11-30 13:52:06.291 -05:00 [INF] User profile is available. Using 'C:\Users\LENOVO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-30 13:52:06.606 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-30 13:52:06.606 -05:00 [INF] Hosting environment: Development
+2023-11-30 13:52:06.606 -05:00 [INF] Content root path: D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta
+2023-11-30 13:52:06.639 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/  
+2023-11-30 13:52:06.753 -05:00 [INF] Executing endpoint '/Index'
+2023-11-30 13:52:06.796 -05:00 [INF] Route matched with {page = "/Index", action = "", controller = ""}. Executing page /Index
+2023-11-30 13:52:06.803 -05:00 [INF] Executing handler method PruebaJoanAcosta.Pages.IndexModel.OnGet - ModelState is "Valid"
+2023-11-30 13:52:06.804 -05:00 [INF] Executed handler method OnGet, returned result .
+2023-11-30 13:52:06.807 -05:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-11-30 13:52:06.807 -05:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-11-30 13:52:06.893 -05:00 [INF] Executed page /Index in 93.2934ms
+2023-11-30 13:52:06.894 -05:00 [INF] Executed endpoint '/Index'
+2023-11-30 13:52:06.897 -05:00 [INF] Request finished in 260.8818ms 200 text/html; charset=utf-8
+2023-11-30 13:52:06.908 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/js/site.js?v=dLGP40S79Xnx6GqUthRF6NWvjvhQ1nOvdVSwaNcgG18  
+2023-11-30 13:52:06.908 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/lib/jquery/dist/jquery.min.js  
+2023-11-30 13:52:06.908 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/lib/bootstrap/dist/css/bootstrap.min.css  
+2023-11-30 13:52:06.908 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/css/site.css  
+2023-11-30 13:52:06.908 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/lib/bootstrap/dist/js/bootstrap.bundle.min.js  
+2023-11-30 13:52:06.970 -05:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\wwwroot\css\site.css'
+2023-11-30 13:52:06.970 -05:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\wwwroot\js\site.js'
+2023-11-30 13:52:06.970 -05:00 [INF] Request finished in 61.6189ms 200 application/javascript
+2023-11-30 13:52:06.970 -05:00 [INF] Request finished in 61.6069ms 200 text/css
+2023-11-30 13:52:06.998 -05:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2023-11-30 13:52:06.998 -05:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\wwwroot\lib\jquery\dist\jquery.min.js'
+2023-11-30 13:52:06.998 -05:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'D:\pruebasTecnicas\alexisacostaquiroz30-JoanAcosta-mscloudexperts\PruebaJoanAcosta\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2023-11-30 13:52:07.000 -05:00 [INF] Request finished in 91.6127ms 200 application/javascript
+2023-11-30 13:52:07.000 -05:00 [INF] Request finished in 91.6126ms 200 text/css
+2023-11-30 13:52:07.000 -05:00 [INF] Request finished in 91.6069ms 200 application/javascript
+2023-11-30 13:52:15.865 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/swagger  
+2023-11-30 13:52:16.121 -05:00 [INF] Request finished in 256.9074ms 301 
+2023-11-30 13:52:16.124 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/swagger/index.html  
+2023-11-30 13:52:16.306 -05:00 [INF] Request finished in 181.239ms 200 text/html;charset=utf-8
+2023-11-30 13:52:16.388 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/swagger/swagger-ui-bundle.js  
+2023-11-30 13:52:16.388 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/swagger/swagger-ui-standalone-preset.js  
+2023-11-30 13:52:16.388 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/swagger/swagger-ui.css  
+2023-11-30 13:52:16.442 -05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-11-30 13:52:16.443 -05:00 [INF] Request finished in 55.1744ms 200 application/javascript
+2023-11-30 13:52:16.453 -05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-11-30 13:52:16.453 -05:00 [INF] Request finished in 65.0662ms 200 text/css
+2023-11-30 13:52:16.482 -05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-11-30 13:52:16.482 -05:00 [INF] Request finished in 94.0501ms 200 application/javascript
+2023-11-30 13:52:16.615 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:44315/swagger/swagger-ui-bundle.js.map  
+2023-11-30 13:52:16.617 -05:00 [INF] Request finished in 2.0121ms 404 
+2023-11-30 13:52:16.719 -05:00 [INF] Request starting HTTP/1.1 GET https://localhost:44315/swagger/swagger-ui-standalone-preset.js.map  
+2023-11-30 13:52:16.719 -05:00 [INF] Request finished in 0.8614ms 404 
+2023-11-30 13:52:16.762 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/swagger/v1/swagger.json  
+2023-11-30 13:52:16.892 -05:00 [INF] Request finished in 129.5243ms 200 application/json;charset=utf-8
+2023-11-30 13:54:29.598 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/api/DeportistaPeso  
+2023-11-30 13:54:29.606 -05:00 [INF] Executing endpoint 'PruebaJoanAcosta.Controllers.DeportistaPesoController.GetDeportistaPeso (PruebaJoanAcosta)'
+2023-11-30 13:54:29.629 -05:00 [INF] Route matched with {action = "GetDeportistaPeso", controller = "DeportistaPeso", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[PruebaJoanAcosta.Models.DeportistaPeso]]] GetDeportistaPeso() on controller PruebaJoanAcosta.Controllers.DeportistaPesoController (PruebaJoanAcosta).
+2023-11-30 13:54:30.335 -05:00 [INF] Entity Framework Core 3.1.32 initialized 'Conexion' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-11-30 13:54:31.016 -05:00 [INF] Executed DbCommand (91ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[IdDeporPeso], [d].[Arranque], [d].[Envion], [d].[IdDeportistaFk]
+FROM [DeportistaPeso] AS [d]
+2023-11-30 13:54:31.069 -05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[PruebaJoanAcosta.Models.DeportistaPeso, PruebaJoanAcosta, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-11-30 13:54:31.086 -05:00 [INF] Executed action PruebaJoanAcosta.Controllers.DeportistaPesoController.GetDeportistaPeso (PruebaJoanAcosta) in 1457.1544ms
+2023-11-30 13:54:31.087 -05:00 [INF] Executed endpoint 'PruebaJoanAcosta.Controllers.DeportistaPesoController.GetDeportistaPeso (PruebaJoanAcosta)'
+2023-11-30 13:54:31.089 -05:00 [INF] Request finished in 1492.149ms 200 application/json; charset=utf-8
+2023-11-30 13:54:41.311 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/api/DeportistaPeso/1  
+2023-11-30 13:54:41.313 -05:00 [INF] Executing endpoint 'PruebaJoanAcosta.Controllers.DeportistaPesoController.GetDeportistaPeso (PruebaJoanAcosta)'
+2023-11-30 13:54:41.326 -05:00 [INF] Route matched with {action = "GetDeportistaPeso", controller = "DeportistaPeso", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[PruebaJoanAcosta.Models.DeportistaPeso]] GetDeportistaPeso(Int32) on controller PruebaJoanAcosta.Controllers.DeportistaPesoController (PruebaJoanAcosta).
+2023-11-30 13:54:41.364 -05:00 [INF] Entity Framework Core 3.1.32 initialized 'Conexion' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-11-30 13:54:41.519 -05:00 [INF] Executed DbCommand (83ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [d].[IdDeporPeso], [d].[Arranque], [d].[Envion], [d].[IdDeportistaFk]
+FROM [DeportistaPeso] AS [d]
+WHERE [d].[IdDeporPeso] = @__p_0
+2023-11-30 13:54:41.522 -05:00 [INF] Executing ObjectResult, writing value of type 'PruebaJoanAcosta.Models.DeportistaPeso'.
+2023-11-30 13:54:41.523 -05:00 [INF] Executed action PruebaJoanAcosta.Controllers.DeportistaPesoController.GetDeportistaPeso (PruebaJoanAcosta) in 197.1619ms
+2023-11-30 13:54:41.524 -05:00 [INF] Executed endpoint 'PruebaJoanAcosta.Controllers.DeportistaPesoController.GetDeportistaPeso (PruebaJoanAcosta)'
+2023-11-30 13:54:41.524 -05:00 [INF] Request finished in 213.1336ms 200 application/json; charset=utf-8
+2023-11-30 13:54:47.243 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/api/DeportistaPeso/Intentos  
+2023-11-30 13:54:47.245 -05:00 [INF] Executing endpoint 'PruebaJoanAcosta.Controllers.DeportistaPesoController.Intentos (PruebaJoanAcosta)'
+2023-11-30 13:54:47.248 -05:00 [INF] Route matched with {action = "Intentos", controller = "DeportistaPeso", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.Object]]] Intentos() on controller PruebaJoanAcosta.Controllers.DeportistaPesoController (PruebaJoanAcosta).
+2023-11-30 13:54:47.252 -05:00 [INF] Consultando cantidad de intentos de los deportistas
+2023-11-30 13:54:47.259 -05:00 [INF] Entity Framework Core 3.1.32 initialized 'Conexion' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-11-30 13:54:47.341 -05:00 [INF] Executed DbCommand (43ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[IdDeportistaFk] AS [IdDeportista], [d0].[NombreDeportista], COUNT(*) AS [Intentos]
+FROM [DeportistaPeso] AS [d]
+INNER JOIN [Deportistas] AS [d0] ON [d].[IdDeportistaFk] = [d0].[IdDeportista]
+GROUP BY [d].[IdDeportistaFk], [d0].[NombreDeportista]
+2023-11-30 13:54:47.344 -05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType9`3[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], PruebaJoanAcosta, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-11-30 13:54:47.346 -05:00 [INF] Executed action PruebaJoanAcosta.Controllers.DeportistaPesoController.Intentos (PruebaJoanAcosta) in 98.0523ms
+2023-11-30 13:54:47.346 -05:00 [INF] Executed endpoint 'PruebaJoanAcosta.Controllers.DeportistaPesoController.Intentos (PruebaJoanAcosta)'
+2023-11-30 13:54:47.346 -05:00 [INF] Request finished in 102.9946ms 200 application/json; charset=utf-8
+2023-11-30 13:54:54.132 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/api/DeportistaPeso/GetMejoresPesos  
+2023-11-30 13:54:54.133 -05:00 [INF] Executing endpoint 'PruebaJoanAcosta.Controllers.DeportistaPesoController.GetMejoresPesos (PruebaJoanAcosta)'
+2023-11-30 13:54:54.138 -05:00 [INF] Route matched with {action = "GetMejoresPesos", controller = "DeportistaPeso", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.Object]]] GetMejoresPesos() on controller PruebaJoanAcosta.Controllers.DeportistaPesoController (PruebaJoanAcosta).
+2023-11-30 13:54:54.141 -05:00 [INF] consultando los mejores pesos
+2023-11-30 13:54:54.142 -05:00 [INF] Entity Framework Core 3.1.32 initialized 'Conexion' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-11-30 13:54:54.158 -05:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[IdDeportistaFk] AS [IdDeportista], [d0].[NombreDeportista], MAX([d].[Arranque]) AS [MejorArranque], MAX([d].[Envion]) AS [MejorEnvion], MAX([d].[Arranque]) + MAX([d].[Envion]) AS [Total]
+FROM [DeportistaPeso] AS [d]
+INNER JOIN [Deportistas] AS [d0] ON [d].[IdDeportistaFk] = [d0].[IdDeportista]
+GROUP BY [d].[IdDeportistaFk], [d0].[NombreDeportista]
+ORDER BY MAX([d].[Arranque]) + MAX([d].[Envion]) DESC
+2023-11-30 13:54:54.159 -05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType11`5[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], PruebaJoanAcosta, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-11-30 13:54:54.161 -05:00 [INF] Executed action PruebaJoanAcosta.Controllers.DeportistaPesoController.GetMejoresPesos (PruebaJoanAcosta) in 22.5617ms
+2023-11-30 13:54:54.161 -05:00 [INF] Executed endpoint 'PruebaJoanAcosta.Controllers.DeportistaPesoController.GetMejoresPesos (PruebaJoanAcosta)'
+2023-11-30 13:54:54.161 -05:00 [INF] Request finished in 28.4828ms 200 application/json; charset=utf-8
+2023-11-30 13:54:55.102 -05:00 [INF] Request starting HTTP/2.0 GET https://localhost:44315/api/DeportistaPeso/GetMejoresPesos  
+2023-11-30 13:54:55.103 -05:00 [INF] Executing endpoint 'PruebaJoanAcosta.Controllers.DeportistaPesoController.GetMejoresPesos (PruebaJoanAcosta)'
+2023-11-30 13:54:55.103 -05:00 [INF] Route matched with {action = "GetMejoresPesos", controller = "DeportistaPeso", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.Object]]] GetMejoresPesos() on controller PruebaJoanAcosta.Controllers.DeportistaPesoController (PruebaJoanAcosta).
+2023-11-30 13:54:55.104 -05:00 [INF] consultando los mejores pesos
+2023-11-30 13:54:55.105 -05:00 [INF] Entity Framework Core 3.1.32 initialized 'Conexion' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-11-30 13:54:55.112 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[IdDeportistaFk] AS [IdDeportista], [d0].[NombreDeportista], MAX([d].[Arranque]) AS [MejorArranque], MAX([d].[Envion]) AS [MejorEnvion], MAX([d].[Arranque]) + MAX([d].[Envion]) AS [Total]
+FROM [DeportistaPeso] AS [d]
+INNER JOIN [Deportistas] AS [d0] ON [d].[IdDeportistaFk] = [d0].[IdDeportista]
+GROUP BY [d].[IdDeportistaFk], [d0].[NombreDeportista]
+ORDER BY MAX([d].[Arranque]) + MAX([d].[Envion]) DESC
+2023-11-30 13:54:55.113 -05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType11`5[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], PruebaJoanAcosta, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-11-30 13:54:55.113 -05:00 [INF] Executed action PruebaJoanAcosta.Controllers.DeportistaPesoController.GetMejoresPesos (PruebaJoanAcosta) in 9.9104ms
+2023-11-30 13:54:55.113 -05:00 [INF] Executed endpoint 'PruebaJoanAcosta.Controllers.DeportistaPesoController.GetMejoresPesos (PruebaJoanAcosta)'
+2023-11-30 13:54:55.114 -05:00 [INF] Request finished in 11.9345ms 200 application/json; charset=utf-8
